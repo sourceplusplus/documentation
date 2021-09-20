@@ -1,0 +1,5 @@
+nav:
+  - Introduction: README.md
+  - attach-probe.md
+  - install-plugin.md
+  - authenticate-plugin.md

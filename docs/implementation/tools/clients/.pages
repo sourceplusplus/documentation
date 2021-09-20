@@ -1,0 +1,4 @@
+nav:
+  - JetBrains Plugin: jetbrains-plugin.md
+  - GraphQL: graphql.md
+  - CLI: cli

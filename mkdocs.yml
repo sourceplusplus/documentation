@@ -1,0 +1,55 @@
+site_name: Source++
+theme:
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+    - navigation.top
+#    - toc.integrate
+#    - navigation.sections
+
+plugins:
+  - search
+  - awesome-pages
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_js:
+  - assets/extra.js
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js
+  - https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
+
+extra:
+  homepage: https://sourceplusplus.com
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/sourceplusplus
+    - icon: fontawesome/brands/github
+      link: https://github.com/sourceplusplus
+
+markdown_extensions:
+  - attr_list
+  - fancyboxmd:
+      preview_width: "1000"
+  - admonition
+  - pymdownx.details
+  - toc:
+      permalink: ⚓︎
+      toc_depth: 3
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx.inline
+
+copyright: © 2021 | CodeBrig, Inc. | All Rights Reserved.
+
+repo_url: https://github.com/sourceplusplus/documentation
