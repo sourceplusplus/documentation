@@ -35,6 +35,9 @@ extra:
       link: https://hub.docker.com/u/sourceplusplus
     - icon: fontawesome/brands/github
       link: https://github.com/sourceplusplus
+  analytics:
+    provider: google
+    property: UA-111677030-1
 
 markdown_extensions:
   - attr_list
