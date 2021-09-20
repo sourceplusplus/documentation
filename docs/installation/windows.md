@@ -9,6 +9,6 @@ Read [Upgrading Source++](upgrading.md) for tips and guidance on updating an exi
 
 1. Extract this folder to anywhere you want Grafana to run from.
 
-1. Start Grafana by executing `spp-platform.exe`, located in the root directory, preferably from the command line. If you want to run Source++ as a Windows service, then download [NSSM](https://nssm.cc/). It is very easy to add Grafana as a Windows service using that tool.
+1. Start Source++ by executing `spp-platform.exe`, located in the root directory, preferably from the command line. If you want to run Source++ as a Windows service, then download [NSSM](https://nssm.cc/). It is very easy to add Source++ as a Windows service using that tool.
 
 > **Note:** The default Source++ port is `5445`. This port might require extra permissions on Windows. If it does not appear in the default port, you can try changing to a different port.
