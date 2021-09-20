@@ -10,11 +10,11 @@ For additional configuration see [Probe Configuration](configuration.md).
 ## Download
 
 ```shell
-curl -O -J "https://<company-name>.srcpl.us/download/spp-probe?access_token=<access-token>"
+curl -O -J "https://<spp-platform-host>:spp-platform-port>/download/spp-probe?access_token=<access-token>"
 ```
 
 !!! note
-    You must replace `<company-name>` and `<access-token>` with valid values.
+    You must replace `<spp-platform-host>`, `<spp-platform-port>`, and `<access-token>` with valid values.
 
 ## Usage
 
@@ -27,21 +27,21 @@ For more information on specific app servers, please see [Advanced Setup](../../
 ### Linux
 
 ```
--javaagent:/<path-to-probe>/spp-probe-1.0.jar
+-javaagent:/<path-to-probe>/spp-probe-0.1.0.jar
 ```
 
 ??? example "Example Usage"
     ```
-    java -javaagent:/opt/spp/spp-probe-1.0.jar -jar MyApplication.jar
+    java -javaagent:/opt/spp/spp-probe-0.1.0.jar -jar MyApplication.jar
     ```
 
 ### Windows
 
 ```
--javaagent:C:\<path-to-probe>\spp-probe-1.0.jar
+-javaagent:C:\<path-to-probe>\spp-probe-0.1.0.jar
 ```
 
 ??? example "Example Usage"
     ```
-    java -javaagent:C:\SourcePlusPlus\spp-probe-1.0.jar -jar MyApplication.jar
+    java -javaagent:C:\SourcePlusPlus\spp-probe-0.1.0.jar -jar MyApplication.jar
     ```
