@@ -55,4 +55,5 @@ markdown_extensions:
 
 copyright: © 2021 | CodeBrig, Inc. | All Rights Reserved.
 
-repo_url: https://github.com/sourceplusplus/documentation
+repo_url: https://github.com/sourceplusplus/live-platform
+edit_uri: https://github.com/sourceplusplus/documentation/tree/master/docs/
