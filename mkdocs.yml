@@ -35,6 +35,9 @@ extra:
       link: https://hub.docker.com/u/sourceplusplus
     - icon: fontawesome/brands/github
       link: https://github.com/sourceplusplus
+  analytics:
+    provider: google
+    property: UA-111677030-1
 
 markdown_extensions:
   - attr_list
@@ -52,4 +55,5 @@ markdown_extensions:
 
 copyright: © 2021 | CodeBrig, Inc. | All Rights Reserved.
 
-repo_url: https://github.com/sourceplusplus/documentation
+repo_url: https://github.com/sourceplusplus/live-platform
+edit_uri: https://github.com/sourceplusplus/documentation/tree/master/docs/
