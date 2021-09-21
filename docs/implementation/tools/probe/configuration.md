@@ -20,7 +20,7 @@ skywalking:
 
 !!! note
     The Source++ JVM probe is powered by Apache SkyWalking. The configuration given above represents the default
-    configuration. For additional configuration, refer to [Agent Configuration Properties](https://skywalking.apache.org/docs/main/v8.5.0/en/setup/service-agent/java-agent/readme/#table-of-agent-configuration-properties){target=_blank}.
+    configuration. For additional configuration, refer to [Agent Configuration Properties](https://skywalking.apache.org/docs/main/v8.6.0/en/setup/service-agent/java-agent/readme/#table-of-agent-configuration-properties){target=_blank}.
 
 ## Probe options
 
