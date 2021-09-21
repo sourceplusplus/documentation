@@ -1,3 +1,5 @@
+# General
+
 The Source++ Platform is the backbone of the Source++ system. It serves as the gateway for both probes and clients and
 handles authentication and authorization.
 
