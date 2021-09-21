@@ -7,7 +7,7 @@ Read [Upgrading Source++](upgrading.md) for tips and guidance on updating an exi
 1. Click **Download the zip file**.
    **Important:** After you've downloaded the zip file and before extracting it, make sure to open the properties for that file (right-click **Properties**) and select the `unblock` check box and then click `Ok`.
 
-1. Extract this folder to anywhere you want Grafana to run from.
+1. Extract this folder to anywhere you want Source++ to run from.
 
 1. Start Source++ by executing `spp-platform.exe`, located in the root directory, preferably from the command line. If you want to run Source++ as a Windows service, then download [NSSM](https://nssm.cc/). It is very easy to add Source++ as a Windows service using that tool.
 
