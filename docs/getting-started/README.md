@@ -38,4 +38,4 @@ The [Source++ Probe](../implementation/tools/probe/general.md) uses bytecode-man
 
 #### What's next?
 
-- [Install platform](../installation)
+- [Install platform](install-platform.md)
