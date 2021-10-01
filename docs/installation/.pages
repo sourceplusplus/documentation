@@ -2,6 +2,7 @@ nav:
   - Requirements: requirements.md
   - Docker: docker.md
   - Debian/Ubuntu: debian.md
-  - Windows: windows
+  - Windows: windows.md
   - Kubernetes: kubernetes.md
-  - ...
+  - Restarting Platform: restarting.md
+  - Upgrading Platform: upgrading.md
