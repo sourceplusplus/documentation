@@ -25,7 +25,7 @@ docker run --name redis -d --network spp-platform -it redis:6.2.1
 
 ### Source++ Platform
 ```bash
-docker run --name spp-platform --restart always -p 5445:5445 -d --network spp-platform -e SPP_CLUSTER_URL=localhost -e SPP_CLUSTER_NAME=docker -e SPP_REDIS_HOST=redis -e SPP_SKYWALKING_HOST=skywalking -e SPP_DISABLE_TLS=true -e SPP_DISABLE_JWT=true -it sourceplusplus/spp-platform:0.1.1
+docker run --name spp-platform --restart always -p 5445:5445 -d --network spp-platform -e SPP_CLUSTER_URL=localhost -e SPP_CLUSTER_NAME=docker -e SPP_REDIS_HOST=redis -e SPP_SKYWALKING_HOST=skywalking -e SPP_DISABLE_TLS=true -e SPP_DISABLE_JWT=true -it sourceplusplus/spp-platform:0.1.2
 ```
 
 ### Elasticsearch
@@ -36,7 +36,7 @@ docker run --name es-server -d --network spp-platform --ulimit nofile=65536:6553
 
 ### Apache SkyWalking (incl. Source++ processor)
 ```bash
-docker run --name skywalking-oap --restart always -d --network spp-platform -e SW_STORAGE=elasticsearch7 -e SW_STORAGE_ES_CLUSTER_NODES=es-server:9200 -e SPP_PLATFORM_HOST=spp-platform -e SPP_PLATFORM_PORT=5460 -e SPP_DISABLE_TLS=true -it sourceplusplus/spp-oap-server:0.1.1
+docker run --name skywalking-oap --restart always -d --network spp-platform -e SW_STORAGE=elasticsearch7 -e SW_STORAGE_ES_CLUSTER_NODES=es-server:9200 -e SPP_PLATFORM_HOST=spp-platform -e SPP_PLATFORM_PORT=5460 -e SPP_DISABLE_TLS=true -it sourceplusplus/spp-oap-server:0.1.2
 ```
 
 Navigate to http://localhost:5445/stats to view the metrics and http://localhost:5445/health for readiness.
