@@ -1,0 +1,7 @@
+nav:
+  - Requirements: README.md
+  - docker
+  - Debian/Ubuntu: debian.md
+  - windows
+  - kubernetes
+  - ...
