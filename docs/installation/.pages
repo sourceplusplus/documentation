@@ -4,5 +4,5 @@ nav:
   - Debian/Ubuntu: debian.md
   - Windows: windows.md
   - Kubernetes: kubernetes.md
-  - Restarting Platform: restarting.md
-  - Upgrading Platform: upgrading.md
+  - Restarting Source++: restarting.md
+  - Upgrading Source++: upgrading.md
