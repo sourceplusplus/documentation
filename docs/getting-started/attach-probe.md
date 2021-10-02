@@ -23,5 +23,5 @@ curl -O -J "https://<platform-host>:5445/download/spp-probe?access_token=<access
 You can attach the probe via the `-javaagent` option. 
 
 ```
--javaagent:/<path-to-probe>/spp-probe-0.1.2.jar
+-javaagent:/<path-to-probe>/spp-probe-0.1.3.jar
 ```

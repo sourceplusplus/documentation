@@ -6,6 +6,7 @@
 spp-platform:
   host: 0.0.0.0
   port: 443
+  access_token: "change-me"
   logging:
     level: info
   probe:
@@ -30,6 +31,7 @@ skywalking-oap:
 | :------------------------------------- | -------------------- | :--------------------------------------------------------------------------------- |
 | **spp-platform:host**                  | 0.0.0.0              | Platform host to listen on                                                         |
 | **spp-platform:port**                  | 443                  | Platform port to listen on                                                         |
+| **spp-platform:access_token**          |                      | System access token                                                                |
 | **spp-platform:logging:level**         | info                 | Platform logging level                                                             |
 | **spp-platform:probe:bridge_port**     | 5450                 | Port to listen on for Source++ Probe connections                                   |
 | **spp-platform:plugin:bridge_port**    | 5455                 | Port to listen on for Source++ Plugin connections                                  |
