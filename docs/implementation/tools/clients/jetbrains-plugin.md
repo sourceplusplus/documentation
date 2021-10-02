@@ -28,7 +28,7 @@ The configuration settings can be found at: <kbd>File</kbd> > <kbd>Settings</kbd
 | :------------------------------------- | -------------------- | :--------------------------------------------------------------------------------- |
 | **Host**                               |                      | Platform host to connect to                                                        |
 | **Access Token**                       |                      | Platform port to connect to                                                        |
-| **Certificate Pins**                   |                      | Used only for self-hosted platforms using self-signed certificates                 |
+| **Certificate Pins**                   |                      | Optional certificate pins (useful for self-signed certificates)                    |
 
 ### Plugin Settings
 
@@ -37,4 +37,3 @@ The configuration settings can be found at: <kbd>File</kbd> > <kbd>Settings</kbd
 | **Root Source Package**                | *\*GENERATED*\*      | Base source code package (e.g. `com.example`)                                      |
 | **Debug Console Enabled**              | false                | Additional console for plugin debug logs                                           |
 | **Auto-Resolve Endpoint Names**        | true                 | Automatically resolve endpoint names                                               |
-| **Refresh Interval (ms)**              | 500                  | Refresh interval for portal UI                                                     |
