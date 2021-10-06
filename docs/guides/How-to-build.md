@@ -2,6 +2,8 @@
 
 1. Git
 2. JDK 11
+3. Docker
+4. Docker Compose
 
 ## Building from GitHub
 1. Clone the project.
