@@ -1,10 +1,9 @@
 # Introduction
 
-Source++ is a live software development platform built to assist in the debugging and development of actively-running
+Source++ is a live coding platform built to assist in the debugging and development of actively-running
 production software. Source++ works by enhancing your application's code through safe and completely reversible runtime
 modifications. These modifications are minuscule and negligible in nature, serving only to emit additional
-data which is collected by [Apache SkyWalking](https://skywalking.apache.org), which Source++ is proudly built on top
-of.
+data which is collected by [Apache SkyWalking](https://skywalking.apache.org), which Source++ is proudly built on top of.
 
 Source++ aims to move observability to the left, giving developers complete visibility into their software independent
 of the environment or deployment type, from monolith to microservices. This is achieved by giving developers the ability
