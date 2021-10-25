@@ -2,7 +2,7 @@ For a standalone JVM deployment, JVM settings can be added as a JAVA_OPTS variab
 
     Copy the agent path, update it according to your configuration and then add it to standalone.conf:
 
--agentpath:<install_dir>/spp-probe-0.1.6.jar
+-agentpath:<install_dir>/spp-probe-0.1.18.jar
 
 Tip
 
