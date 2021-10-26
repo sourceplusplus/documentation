@@ -27,21 +27,21 @@ For more information on specific app servers, please see [Advanced Setup](../../
 ### Linux
 
 ```
--javaagent:/<path-to-probe>/spp-probe-0.1.18.jar
+-javaagent:/<path-to-probe>/spp-probe-0.1.19.jar
 ```
 
 ??? example "Example Usage"
     ```
-    java -javaagent:/opt/spp/spp-probe-0.1.18.jar -jar MyApplication.jar
+    java -javaagent:/opt/spp/spp-probe-0.1.19.jar -jar MyApplication.jar
     ```
 
 ### Windows
 
 ```
--javaagent:C:\<path-to-probe>\spp-probe-0.1.18.jar
+-javaagent:C:\<path-to-probe>\spp-probe-0.1.19.jar
 ```
 
 ??? example "Example Usage"
     ```
-    java -javaagent:C:\SourcePlusPlus\spp-probe-0.1.18.jar -jar MyApplication.jar
+    java -javaagent:C:\SourcePlusPlus\spp-probe-0.1.19.jar -jar MyApplication.jar
     ```
