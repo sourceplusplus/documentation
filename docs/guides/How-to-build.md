@@ -20,5 +20,4 @@
     git submodule update
     ```
    
-1. Run `./gradlew shadowJar nativeImage makeDist -Dbuild.profile=full`
-1. All packages are in `/dist`
+1. Run `./gradlew assemble`
