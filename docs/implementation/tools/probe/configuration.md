@@ -16,6 +16,10 @@ skywalking:
     class_cache_mode: "FILE"
   collector:
     backend_service: "<company-name>.srcpl.us:11800"
+  plugin:
+    toolkit:
+      log:
+        transmit_formatted: false
 ```
 
 !!! note
