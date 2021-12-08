@@ -11,16 +11,16 @@ Options:
   -h, --help              Show this message and exit
 
 Commands:
-  add-live-breakpoint
-  add-live-log
-  get-live-breakpoints
-  get-live-logs
-  get-live-instruments
-  remove-live-instrument
-  remove-live-instruments
+  add-breakpoint
+  add-log
+  get-breakpoints
+  get-logs
+  get-instruments
+  remove-instrument
+  remove-instruments
 ```
 
-### add-live-breakpoint
+### add-breakpoint
 
 #### Description
 
@@ -29,7 +29,7 @@ Add live breakpoint to running application.
 #### Synopsis
 
 ```
-add-live-breakpoint [OPTIONS] <source> <line>
+add-breakpoint [OPTIONS] <source> <line>
 ```
 
 #### Arguments
@@ -52,7 +52,7 @@ add-live-breakpoint [OPTIONS] <source> <line>
 ??? example "Basic"
     **Input**:
     ```
-    add-live-breakpoint com.company.Webapp 42
+    add-breakpoint com.company.Webapp 42
     ```
 
     **Output**:
@@ -70,7 +70,7 @@ add-live-breakpoint [OPTIONS] <source> <line>
 ??? example "Advanced"
     **Input**:
     ```
-    add-live-breakpoint -c 1==1 -h 5 com.company.Webapp 42
+    add-breakpoint -c 1==1 -h 5 com.company.Webapp 42
     ```
 
     **Output**:
@@ -88,7 +88,7 @@ add-live-breakpoint [OPTIONS] <source> <line>
 
 ---
 
-### add-live-log
+### add-log
 
 #### Description
 
@@ -97,7 +97,7 @@ Add live log to running application.
 #### Synopsis
 
 ```
-add-live-log [OPTIONS] <source> <line> <logFormat>
+add-log [OPTIONS] <source> <line> <logFormat>
 ```
 
 #### Arguments
@@ -122,7 +122,7 @@ add-live-log [OPTIONS] <source> <line> <logFormat>
 ??? example "Basic"
     **Input**:
     ```
-    add-live-log com.company.Webapp 42 "Hello world"
+    add-log com.company.Webapp 42 "Hello world"
     ```
 
     **Output**:
@@ -141,7 +141,7 @@ add-live-log [OPTIONS] <source> <line> <logFormat>
 ??? example "Advanced"
     **Input**:
     ```
-    add-live-log -l name1 -l name2 com.company.Webapp 42 "Hello {} and {}"
+    add-log -l name1 -l name2 com.company.Webapp 42 "Hello {} and {}"
     ```
 
     **Output**:
@@ -160,7 +160,7 @@ add-live-log [OPTIONS] <source> <line> <logFormat>
 
 ---
 
-### get-live-breakpoints
+### get-breakpoints
 
 #### Description
 
@@ -169,7 +169,7 @@ Get list of live breakpoints.
 #### Synopsis
 
 ```
-get-live-breakpoints
+get-breakpoints
 ```
 
 #### Examples
@@ -177,7 +177,7 @@ get-live-breakpoints
 ??? example "Basic"
     **Input**:
     ```
-    get-live-breakpoints
+    get-breakpoints
     ```
 
     **Output**:
@@ -195,7 +195,7 @@ get-live-breakpoints
 
 ---
 
-### get-live-logs
+### get-logs
 
 #### Description
 
@@ -204,7 +204,7 @@ Get list of live logs.
 #### Synopsis
 
 ```
-get-live-logs
+get-logs
 ```
 
 #### Examples
@@ -212,7 +212,7 @@ get-live-logs
 ??? example "Basic"
     **Input**:
     ```
-    get-live-logs
+    get-logs
     ```
 
     **Output**:
@@ -231,7 +231,7 @@ get-live-logs
 
 ---
 
-### get-live-instruments
+### get-instruments
 
 #### Description
 
@@ -240,7 +240,7 @@ Get list of live instruments.
 #### Synopsis
 
 ```
-get-live-instruments
+get-instruments
 ```
 
 #### Examples
@@ -248,7 +248,7 @@ get-live-instruments
 ??? example "Basic"
     **Input**:
     ```
-    get-live-instruments
+    get-instruments
     ```
 
     **Output**:
@@ -278,7 +278,7 @@ get-live-instruments
 
 ---
 
-### remove-live-instrument
+### remove-instrument
 
 #### Description
 
@@ -287,7 +287,7 @@ Remove an existing live instrument.
 #### Synopsis
 
 ```
-remove-live-instrument <id>
+remove-instrument <id>
 ```
 
 #### Arguments
@@ -301,7 +301,7 @@ remove-live-instrument <id>
 ??? example "Basic"
     **Input**:
     ```
-    remove-live-instrument 6567ee97-ec61-4b23-80d7-cef8206b629e
+    remove-instrument 6567ee97-ec61-4b23-80d7-cef8206b629e
     ```
 
     **Output**:
@@ -318,7 +318,7 @@ remove-live-instrument <id>
 
 ---
 
-### remove-live-instruments
+### remove-instruments
 
 #### Description
 
@@ -327,7 +327,7 @@ Remove existing live instruments.
 #### Synopsis
 
 ```
-remove-live-instruments <source> <line>
+remove-instruments <source> <line>
 ```
 
 #### Arguments
@@ -342,7 +342,7 @@ remove-live-instruments <source> <line>
 ??? example "Basic"
     **Input**:
     ```
-    remove-live-instruments com.company.Webapp 42
+    remove-instruments com.company.Webapp 42
     ```
 
     **Output**:
