@@ -20,4 +20,4 @@
     git submodule update
     ```
    
-1. Run `./gradlew assemble`
+1. Run `./gradlew -p platform assemble`
