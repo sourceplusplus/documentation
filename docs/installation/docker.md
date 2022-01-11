@@ -18,19 +18,14 @@ Run the following commands in your command line.
 docker network create spp-platform
 ```
 
-### Redis
-```bash
-docker run --name redis -d --network spp-platform -it redis:6.2.1
-```
-
 ### Source++ Platform
 ```bash
-docker run --name spp-platform --restart always -p 5445:5445 -d --network spp-platform -e SPP_CLUSTER_URL=localhost -e SPP_CLUSTER_NAME=docker -e SPP_REDIS_HOST=redis -e SPP_SKYWALKING_HOST=skywalking -e SPP_DISABLE_TLS=true -e SPP_DISABLE_JWT=true -it sourceplusplus/spp-platform:0.1.19
+docker run --name spp-platform --restart always -p 5445:5445 -d --network spp-platform -e SPP_OAP_HOST=skywalking -e SPP_DISABLE_TLS=true -e SPP_DISABLE_JWT=true -it sourceplusplus/spp-platform:latest
 ```
 
 ### Apache SkyWalking (incl. Source++ processors)
 ```bash
-docker run --name skywalking-oap --restart always -d --network spp-platform -e SPP_PLATFORM_HOST=spp-platform -e SPP_PLATFORM_PORT=5460 -e SPP_DISABLE_TLS=true -it sourceplusplus/spp-oap-server:0.1.19
+docker run --name skywalking-oap --restart always -d --network spp-platform -e SPP_PLATFORM_HOST=spp-platform -e SPP_PLATFORM_PORT=5460 -e SPP_DISABLE_TLS=true -it sourceplusplus/spp-oap-server:latest
 ```
 
 Navigate to http://localhost:5445/stats to view the metrics and http://localhost:5445/health for readiness.
