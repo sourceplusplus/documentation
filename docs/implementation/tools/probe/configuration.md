@@ -8,8 +8,6 @@ spp:
   platform_port: 443
   platform_certificate: "<platform-certificate>"
 skywalking:
-  logging:
-    level: "WARN"
   agent:
     service_name: "<company-name>"
     is_cache_enhanced_class: true
