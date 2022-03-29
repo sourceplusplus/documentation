@@ -29,6 +29,6 @@ The [Source++ Probe](implementation/tools/probe/) uses bytecode-manipulations to
 
 ### Clients
 
-- [JetBrains Plugin](../implementation/tools/clients/jetbrains-plugin.md)
-- [Command Line Interface](../implementation/tools/clients/cli.md)
-- [GraphQL](../implementation/tools/clients/graphql.md)
+- [JetBrains Plugin](implementation/tools/clients/jetbrains-plugin.md)
+- [Command Line Interface](implementation/tools/clients/cli.md)
+- [GraphQL](implementation/tools/clients/graphql.md)
