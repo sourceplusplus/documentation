@@ -16,16 +16,16 @@ At the highest level, Source++ works by connecting developers via authorized cli
 communication with a number of probes. These probes are in turn integrated with the production applications these developers are
 familiar with, and it is through this triadic arrangement that developers can safely interface with live production applications.
 
-!![](../assets/diagrams/spp-architecture.svg)
+!![](assets/diagrams/spp-architecture.svg)
 
 ### Platform
 
-The [Source++ Platform](../implementation/tools/platform/) is the backbone of the Source++ system. It serves
+The [Source++ Platform](implementation/tools/platform/) is the backbone of the Source++ system. It serves
 as the gateway for both probes and clients and handles auditing, authentication, and authorization.
 
 ### Probe
 
-The [Source++ Probe](../implementation/tools/probe/) uses bytecode-manipulations to add live instruments in real-time, allowing developers to debug live production applications.
+The [Source++ Probe](implementation/tools/probe/) uses bytecode-manipulations to add live instruments in real-time, allowing developers to debug live production applications.
 
 ### Clients
 
