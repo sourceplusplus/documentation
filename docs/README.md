@@ -20,21 +20,15 @@ familiar with, and it is through this triadic arrangement that developers can sa
 
 ### Platform
 
-The [Source++ Platform](../implementation/tools/platform/general.md) is the backbone of the Source++ system. It serves
+The [Source++ Platform](../implementation/tools/platform/) is the backbone of the Source++ system. It serves
 as the gateway for both probes and clients and handles auditing, authentication, and authorization.
 
 ### Probe
 
-The [Source++ Probe](../implementation/tools/probe/general.md) uses bytecode-manipulations to add live instruments in real-time, allowing developers to debug live production applications.
+The [Source++ Probe](../implementation/tools/probe/) uses bytecode-manipulations to add live instruments in real-time, allowing developers to debug live production applications.
 
 ### Clients
 
 - [JetBrains Plugin](../implementation/tools/clients/jetbrains-plugin.md)
 - [Command Line Interface](../implementation/tools/clients/cli.md)
 - [GraphQL](../implementation/tools/clients/graphql.md)
-
----
-
-#### What's next?
-
-- [Install platform](install-platform.md)
