@@ -1,3 +1,4 @@
 nav:
+  - README.md
   - Live Instruments: live-instruments
-  - Auto-Link: auto-link
+  - Live Views: live-views

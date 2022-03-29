@@ -1,7 +1,11 @@
 nav:
-  - Getting Started: getting-started
-  - installation
-  - implementation
+  - Overview:
+    - Introduction: README.md
+    - Alternatives: alternatives
+    - Getting started: getting-started
   - features
+  - implementation
   - advanced
+  - guides
+  - ...
   - legal
