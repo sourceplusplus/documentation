@@ -1,4 +1,4 @@
-# Install Plugin
+# Setup Plugin
 
 !!! note
     The Source++ Plugin currently supports JetBrains-based IDEs.

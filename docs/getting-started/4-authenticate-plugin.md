@@ -1,7 +1,7 @@
 # Authenticate Plugin
 
 !!! Prerequisites
-    - You must first [install the Source++ Plugin](./install-plugin.md) to your local JetBrains environment
+    - You must first [install the Source++ Plugin](./3-install-plugin.md) to your local JetBrains environment
 
 Before you can work from your IDE with Source++, you need to first authenticate your local environment with your Source++ account. To authenticate your local environment, follow these steps:
 

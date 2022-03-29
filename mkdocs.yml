@@ -1,4 +1,4 @@
-site_name: Source++
+site_name: Source++ Docs
 theme:
   logo: assets/logo.svg
   favicon: assets/favicon.png
@@ -9,7 +9,7 @@ theme:
     - navigation.top
     - navigation.tracking
     - navigation.top
-#    - toc.integrate
+    - toc.integrate
 #    - navigation.sections
 
 plugins:
@@ -52,8 +52,11 @@ markdown_extensions:
   - pymdownx.highlight:
       linenums: true
       linenums_style: pymdownx.inline
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
-copyright: © 2021 | CodeBrig, Inc. | All Rights Reserved.
+copyright: © 2022 | CodeBrig, Inc. | All Rights Reserved.
 
 repo_url: https://github.com/sourceplusplus/live-platform
 edit_uri: https://github.com/sourceplusplus/documentation/tree/master/docs/

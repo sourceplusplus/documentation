@@ -1,0 +1,6 @@
+nav:
+  - introduction.md
+  - overview.md
+  - activity.md
+  - traces.md
+  - logs.md

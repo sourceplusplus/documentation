@@ -1,5 +1,6 @@
 nav:
+  - README.md
   - breakpoints
-  - spans
   - logs
   - metrics
+  - spans

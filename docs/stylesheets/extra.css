@@ -1,3 +1,11 @@
+.green {
+    color: #77B255;
+}
+
+.red {
+    color: #BE1931;
+}
+
 :root {
     --md-primary-fg-color: #182d34;
     --md-primary-fg-color--dark: #141d22;
