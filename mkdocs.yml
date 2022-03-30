@@ -40,7 +40,7 @@ extra:
     provider: google
     property: UA-111677030-1
   spp:
-    latest_version: 0.4.4
+    latest_version: 0.4.4 #todo: could pull from changelog
 
 markdown_extensions:
   - attr_list
