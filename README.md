@@ -11,6 +11,7 @@ sudo apt-get install mkdocs
 pip3 install mkdocs-material
 pip3 install mkdocs-awesome-pages-plugin
 pip3 install fancyboxmd
+pip3 install mkdocs-macros-plugin
 ```
 
 # Usage

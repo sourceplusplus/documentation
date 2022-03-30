@@ -12,7 +12,7 @@ Add the parameter with one of the following options:
 
     1. Copy the agent path option.
         ```
-       -agentpath:<install_dir>/spp-probe-0.1.19.jar
+       -agentpath:<install_dir>/spp-probe-{{ spp.latest_version }}.jar
         ```
 
     1. Navigate to the Admin panel (usually at [http://localhost:7001/console](https://docs.oracle.com/cd/E13167_01/aldsp/docs21/admin/console.html))
@@ -27,7 +27,7 @@ Add the parameter with one of the following options:
 
     1. Copy the agent path and update it according to your configuration:
         ```
-       -agentpath:<install_dir>/spp-probe-0.1.19.jar
+       -agentpath:<install_dir>/spp-probe-{{ spp.latest_version }}.jar
         ```
 
     1. Add the path to `Oracle/Middleware/user_projects/domains/<your-domain>/bin/setDomainEnv.sh` as an additional parameter to the JAVA_OPTS (see WebLogic documentation for [help](https://docs.oracle.com/cd/E35976_01/general.240/eid_install/src/tidi_studio_weblogic_update_memory_arguments.html)).
