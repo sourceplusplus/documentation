@@ -26,11 +26,3 @@ Start Source++ by running:
 ```bash
 ./spp-platform
 ```
-
-## Next steps
-
-Refer to the [Getting Started]({{< relref "../getting-started/getting-started/" >}}) guide for information about logging in, setting up the probe, and so on.
-
-## Configure Source++
-
-Refer to the [Configuration]({{< relref "../administration/configuration.md" >}}) page for details on options for customizing your environment, logging, sampling, and so on.
