@@ -3,7 +3,7 @@
 !!! info
     If you're not interested in alternative technologies and wish to get started using Source++, feel free to skip to the [Getting started](../getting-started) section.
 
-Source++ exists within the realm of "Live-Coding", "Dynamic Observability", "Production Debugging", and related concepts. Being so, there are alternative solutions to Source++ which may be more suitable for your needs. The following comparison matrix shows the differences between Source++ and alternative solutions. The primary difference between Source++ and the alternatives is the technology which it is built on and the licensing under which it is offered.
+Source++ exists within the realm of "Live-Coding", "Dynamic Observability", "Production Debugging", and related concepts. Being so, there are alternative solutions to Source++ which may be more suitable for your needs. The following comparison matrix shows the differences between Source++ and alternative solutions.
 
 ---
 
