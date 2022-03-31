@@ -1,40 +1,28 @@
 # Setup Plugin
 
+## Download Plugin
+
+With Source++, you can add live instruments (breakpoints, logs, etc.) from the source code of your live application either from your IDE, or from the CLI. To use Source++ through your IDE, you need to first install the [Source++ Plugin](../implementation/tools/clients/jetbrains-plugin.md).
+
 !!! note
-    The Source++ Plugin currently supports JetBrains-based IDEs.
+    The Source++ Plugin currently only supports [JetBrains](https://www.jetbrains.com/) IDEs.
 
-With Source++, you can add actions (live breakpoints, logs, etc) from the source code of your live application either from your IDE, or from the CLI. To use Source++ through your IDE, you need to first install the [Source++ Plugin](../implementation/tools/clients/jetbrains-plugin.md).
-
-!!! prerequisites
-    To use the Source++ Plugin, attach the Source++ Probe to your running application.
-
-## Downloading the IDE
-
-Install a JetBrains IDE if you don’t already have one.
-
--  [Download IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
-- Or [find another JetBrains product](https://www.jetbrains.com/products.html)
-
-## Installing Source++ Plugin
-
-1. Press `Ctrl+Alt+S` to open the `Settings` dialog and then go to `Plugins`.
-2. Click the `Install JetBrains plugin`.
-3. In the dialog that opens, search for `Source++`.
-4. Press `Install`.
-5. Click `OK` in the `Settings` dialog and restart your IDE.
-
-## Uninstalling Source++ Plugin
-
-1. Press `Ctrl+Alt+S` to open the `Settings` dialog and then go to `Plugins`.
-2. Search for `Source++`.
-3. Press `Uninstall`.
-4. Click `OK` in the `Settings` dialog and restart your IDE.
-
-#### To install the plugin
+### Installing Source++ Plugin
 
 1. Navigate to your JetBrains IDE.
-1. Navigate to Settings (Windows/Linux) or Preferences (Mac OS):
-1. Go to the Plugins section and select the Marketplace tab.
-1. Search for Source++ and click Install:
-1. When prompted, restart JetBrains IDE.
-1. Now authenticate the plugin with your Source++ credentials, and you're ready to get working.
+1. Press ++ctrl+alt+s++ to open the `Settings` dialog and then go to `Plugins`.
+1. Open the `Marketplace` tab.
+1. Search for `Source++`.
+1. Press `Install`.
+1. Click `OK` in the `Settings` dialog and restart your IDE.
+
+## Configure Plugin
+
+Before you can work from your IDE with Source++, you need to connect the plugin with your SkyWalking/live-platform environment. To connect your plugin, follow these steps:
+
+1. Open the Source++ plugin configuration page
+    1. Navigate to: <kbd>File</kbd> > <kbd>Settings</kbd> > <kbd>Tools</kbd> > <kbd>Source++</kbd>
+       !![](../assets/screenshots/settings_dialog.png)
+1. Input the service host and access token provided (if necessary)
+1. If `Root Source Package` is empty, input the base common package of your application
+    1. E.g. `com.company.application`
