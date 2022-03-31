@@ -1,5 +1,14 @@
 site_name: Source++ Docs
 theme:
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
   logo: assets/logo.svg
   favicon: assets/favicon.png
   name: material
@@ -22,6 +31,7 @@ plugins:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/jquery.fancybox.min.css
 
 extra_js:
   - assets/extra.js
