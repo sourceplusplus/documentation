@@ -30,6 +30,14 @@
     background: #182d34;
 }
 
+[data-md-color-scheme="slate"] .md-top {
+    background: #050809;
+}
+
+[data-md-color-scheme="slate"] .md-select__link {
+    background: #182d34;
+}
+
 /*[data-md-color-scheme="default"] .md-typeset a {*/
 /*    color: #e1483b;*/
 /*}*/
