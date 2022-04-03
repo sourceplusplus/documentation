@@ -19,7 +19,7 @@
 }
 
 [data-md-color-scheme="slate"] .md-footer {
-    background: #050809;
+    background: #0d1216;
 }
 
 [data-md-color-scheme="default"] .md-footer-meta {
@@ -31,7 +31,7 @@
 }
 
 [data-md-color-scheme="slate"] .md-top {
-    background: #050809;
+    background: #0d1216;
 }
 
 [data-md-color-scheme="slate"] .md-select__link {
@@ -83,5 +83,5 @@ td > img {
     --md-primary-fg-color:        #182d34;
     --md-accent-fg-color: #e1483b;
     --md-typeset-a-color: #e1483b;
-    --md-code-bg-color: #050809;
+    --md-code-bg-color: #0d1216;
 }
