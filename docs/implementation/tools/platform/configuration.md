@@ -5,7 +5,7 @@
 ```yaml
 spp-platform:
   host: ${SPP_PLATFORM_HOST:-0.0.0.0}
-  port: ${SPP_PLATFORM_PORT:-5445}
+  port: ${SPP_PLATFORM_PORT:-12800}
   access_token: ${SPP_SYSTEM_ACCESS_TOKEN:-change-me}
   logging:
     level: ${SPP_LOGGING_LEVEL:-info}
@@ -36,7 +36,7 @@ skywalking-oap:
 | Option                                             | Default   | Description                                            |
 |:---------------------------------------------------|-----------|:-------------------------------------------------------|
 | **spp-platform:host**                              | 0.0.0.0   | Platform host to listen on                             |
-| **spp-platform:port**                              | 5445      | Platform port to listen on                             |
+| **spp-platform:port**                              | 12800     | Platform port to listen on                             |
 | **spp-platform:access_token**                      | change-me | System access token                                    |
 | **spp-platform:logging:level**                     | info      | Platform logging level                                 |
 | **spp-platform:probe:bridge_port**                 | 5450      | Port to listen on for Source++ Probe connections       |
