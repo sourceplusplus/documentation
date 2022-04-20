@@ -15,7 +15,7 @@ see [Advanced Setup](../advanced/setup/overview.md) for more information. For th
 You can use the platform to generate and download a probe which contains embedded connection information.  
 
 ```shell
-curl -O -J "https://<platform-host>:5445/download/spp-probe?access_token=<access-token>"
+curl -O -J "https://<platform-host>:12800/download/spp-probe?access_token=<access-token>"
 ```
 
 ## Usage

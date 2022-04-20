@@ -20,7 +20,7 @@ docker network create spp-platform
 
 ### Source++ Platform
 ```bash
-docker run --name spp-platform --restart always -p 5445:5445 -d --network spp-platform -e SPP_OAP_HOST=skywalking -e SPP_DISABLE_TLS=true -e SPP_DISABLE_JWT=true -it sourceplusplus/spp-platform:latest
+docker run --name spp-platform --restart always -p 12800:12800 -d --network spp-platform -e SPP_OAP_HOST=skywalking -e SPP_DISABLE_TLS=true -e SPP_DISABLE_JWT=true -it sourceplusplus/spp-platform:latest
 ```
 
 ### Apache SkyWalking (incl. Source++ processors)
@@ -28,7 +28,7 @@ docker run --name spp-platform --restart always -p 5445:5445 -d --network spp-pl
 docker run --name skywalking-oap --restart always -d --network spp-platform -e SPP_PLATFORM_HOST=spp-platform -e SPP_PLATFORM_PORT=5460 -e SPP_DISABLE_TLS=true -it sourceplusplus/spp-oap-server:latest
 ```
 
-Navigate to http://localhost:5445/stats to view the metrics and http://localhost:5445/health for readiness.
+Navigate to http://localhost:12800/stats to view the metrics and http://localhost:12800/health for readiness.
 
 ## Install with Docker Compose
 

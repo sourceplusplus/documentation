@@ -857,11 +857,7 @@
 <td></td>
 </tr>
 <tr>
-<td valign="top"><strong>ADD_DATA_REDACTION</strong></td>
-<td></td>
-</tr>
-<tr>
-<td valign="top"><strong>REMOVE_DATA_REDACTION</strong></td>
+<td valign="top"><strong>UPDATE_DATA_REDACTION</strong></td>
 <td></td>
 </tr>
 <tr>
