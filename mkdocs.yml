@@ -41,7 +41,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
 
 extra:
-  homepage: https://sourceplusplus.com
+  homepage: https://sourceplus.plus
   version:
     provider: mike
   social:
