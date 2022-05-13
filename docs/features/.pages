@@ -1,4 +1,6 @@
 nav:
   - README.md
+  - Live Commands: live-commands
   - Live Instruments: live-instruments
   - Live Views: live-views
+  - Live Dashboards: live-dashboards
