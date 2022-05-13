@@ -10,7 +10,7 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
   logo: assets/logo.svg
-  favicon: assets/favicon.png
+  favicon: assets/logo.svg
   name: material
   custom_dir: overrides
   icon:
