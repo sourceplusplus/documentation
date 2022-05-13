@@ -1,7 +1,9 @@
 # Using Source++
 
-#### Live Command Palette
+#### Live Commands
 
 #### Live Instruments
 
 #### Live Views
+
+#### Live Dashboards
