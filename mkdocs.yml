@@ -1,7 +1,7 @@
 site_name: Source++ Docs
 theme:
   palette:
-    - scheme: default
+    - scheme: slate
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
