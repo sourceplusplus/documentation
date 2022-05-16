@@ -33,7 +33,7 @@ Source++ exists within the realm of "Live-Coding", "Dynamic Observability", "Pro
 |             | [Source++](https://sourceplus.plus)        | [Lightrun](https://lightrun.com)           | [Rookout](https://rookout.com)             | [Thundra](https://thundra.io)              | [nerd.vision](https://nerd.vision)         | Terminology |
 |-------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|--------------------------------------------|-------------|
 | Cloud       | :fontawesome-solid-circle-minus:{ .red }   | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } |             |
-| Self-hosted | :fontawesome-solid-circle-check:{ .green } | :fontawesome-solid-circle-check:{ .green } | :mobile_phone:                             | :fontawesome-solid-circle-minus:{ .red }   | :mobile_phone:                             |             |
+| Self-hosted | :fontawesome-solid-circle-check:{ .green } | :mobile_phone:                             | :mobile_phone:                             | :fontawesome-solid-circle-minus:{ .red }   | :mobile_phone:                             |             |
 
 ### Clients
 
