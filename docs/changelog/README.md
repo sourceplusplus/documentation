@@ -1,1 +1,20 @@
 # Unreleased
+
+### Ecosystem
+
+#### Added
+- Official website: https://sourceplus.plus
+
+#### Changed
+- Replaced [Live Portal](https://github.com/sourceplusplus/interface-portal) with [Booster UI](https://github.com/sourceplusplus/interface-booster-ui)
+
+### [JetBrains Plugin](https://github.com/sourceplusplus/interface-jetbrains)
+
+#### Added
+- Live command functionality
+- UI zoom configuration
+
+#### Changed
+- Replaced Live Portal with Booster UI
+- Increased minimum JetBrains compatibility version to 2022.1
+- Increased Kotlin support
