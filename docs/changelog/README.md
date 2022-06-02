@@ -12,7 +12,7 @@
 
 #### Fixed
 - IU-222.2270.31 compatibility issues
-- Auto-deployment issues
+- Auto-release issues
 
 ### [JVM Probe](https://github.com/sourceplusplus/probe-jvm)
 
