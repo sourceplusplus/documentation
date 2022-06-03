@@ -140,7 +140,7 @@ agent.start()
 
 
 ## Setup Plugin
-Install the Source++ Plugin by downloading [https://drive.google.com/file/d/1pBrWN4uQBLjrWHAiUhdmQYk0yj6UcGi6/view?usp=sharing](https://drive.google.com/file/d/1pBrWN4uQBLjrWHAiUhdmQYk0yj6UcGi6/view?usp=sharing) and manually installing the local file and restarting the IDE after installation
+Install the Source++ Plugin by downloading [plugin](https://drive.google.com/file/d/1pBrWN4uQBLjrWHAiUhdmQYk0yj6UcGi6/view?usp=sharing) and manually installing the local file and restarting the IDE after installation
 
 **NOTE:**
 For the integration of the packages to be successful, the correct order of things must be followed. The needed packages and libraries should first of all be downloaded and added to the correct directories as required, followed by the starting up of the either the Source++ or Skywalking services and then the installation of the Source++ plugin and subsequent restarting of the IDE after installation.
