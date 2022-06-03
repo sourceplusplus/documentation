@@ -53,7 +53,7 @@ extra:
     provider: google
     property: UA-111677030-1
   spp:
-    latest_version: 0.4.6 #todo: could pull from changelog
+    latest_version: 0.5.3 #todo: could pull from changelog
 
 markdown_extensions:
   - attr_list
