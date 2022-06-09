@@ -1,6 +1,7 @@
 # Unreleased
 
-### [JetBrains Plugin](https://github.com/sourceplusplus/interface-jetbrains)
+### Ecosystem
 
-#### Fixed
-- IU-222.2889.14 compatibility issues
+#### Added
+- Apache APISIX gateway
+- Live Dashboard
