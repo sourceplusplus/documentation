@@ -17,3 +17,4 @@
 
 #### Fixed
 - Action conflicts with LivePlugin
+- Portal connection configuration
