@@ -18,3 +18,8 @@
 #### Fixed
 - Action conflicts with LivePlugin
 - Portal connection configuration
+
+### [JVM Probe](https://github.com/sourceplusplus/probe-jvm)
+
+#### Changed
+- Upgraded SkyWalking agent to 8.11.0
