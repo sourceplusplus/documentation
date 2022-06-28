@@ -1,5 +1,5 @@
 nav:
-  - introduction.md
+  - README.md
   - breakpoint-status.md
   - breakpoint-condition.md
   - ...
