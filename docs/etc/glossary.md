@@ -1,32 +1,40 @@
 This is a collection of terms used in the documentation and API of Source++.
 
-### Source Mark
+### [Source Mark](../implementation/concepts/source-mark.md)
 
-### Guide Mark
+### [Guide Mark](../implementation/concepts/source-mark.md#guide-mark)
 
-### Inlay Mark
+### [Inlay Mark](../implementation/concepts/source-mark.md#inlay-mark)
 
-### Gutter Mark
+### [Gutter Mark](../implementation/concepts/source-mark.md#gutter-mark)
 
-### Live Instrument
+### [Live Instrument](../features/live-instruments/README.md)
 
-### Live View
+### [Live Breakpoint](../features/live-instruments/breakpoints/README.md)
 
-### Live Command
+### [Live Log](../features/live-instruments/logs/README.md)
+
+### [Live Metric](../features/live-instruments/metrics/README.md)
+
+### [Live Span](../features/live-instruments/spans/README.md)
+
+### [Live View](../features/live-views/README.md)
+
+### [Live Command](../features/live-commands/README.md)
 
 ### Live Variable
 
-### Live Platform
+### [Live Platform](../implementation/tools/platform/README.md)
 
-### Live Plugin
+### [Live Plugin](../implementation/tools/clients/jetbrains-plugin.md)
 
-### Live Probe
+### [Live Probe](../implementation/tools/probe/README.md)
 
 ### Code Object
 
 ### Code Activity
 
-### Live Indicator
+### [Live Indicator](../features/live-views/indicators/README.md)
 
 ### Live Processor
 
@@ -42,15 +50,7 @@ A live metric which has gone through machine learning algorithm(s) to determine 
 
 A value which has been extracted/deduced from a live software application.
 
-### Live Dashboard
-
-### Live Breakpoint
-
-### Live Span
-
-### Live Metric
-
-### Live Log
+### [Live Dashboard](../features/live-dashboards/README.md)
 
 ### OAP
 
@@ -62,10 +62,14 @@ A value which has been extracted/deduced from a live software application.
 
 ### Auto-link
 
-### Live Portal
+### [Live Portal](../features/live-views/portal/README.md)
 
 ### Apache SkyWalking
 
 ### Live Coding
 
 ### Observability
+
+### [Source Portal](../implementation/concepts/source-portal.md)
+
+### [Live Command Palette](../implementation/concepts/live-command-palette.md)
