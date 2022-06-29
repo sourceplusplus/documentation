@@ -1,10 +1,6 @@
 The *Source Portal* is the primary visual interface of SourceMarker. It is a dynamic and contextual interface that displays visualizations relevant to the source code currently in focus. The *Source Portal* is used to convey larger amounts of relevant runtime information than is possible through *Source Marks*.
 
-To view the *Source Portal* you can click any visible *Source Mark* or you can type the keyboard combination:
-
-```
-CONTROL+SHIFT+S
-```
+To view the *Source Portal* you can click any visible *Source Mark* or you can type the keyboard combination ++ctrl+shift+s++.
 
 Doing so will trigger the *Source Portal* to display directly above the artifact for which the information correlates, like so:
 
