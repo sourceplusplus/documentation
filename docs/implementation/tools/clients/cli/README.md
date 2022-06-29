@@ -2,12 +2,12 @@
 
 ## Quick install
 
-### Linux or macOS
+### Linux/macOS
 
 Install the latest version with the following command:
 
 ```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/sourceplusplus/interface-cli/master/scripts/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.sourceplus.plus/interface-cli/master/scripts/install.sh)"
 ```
 
 ### Windows
@@ -15,7 +15,7 @@ Install the latest version with the following command:
 Note: You will need to start cmd in administrator mode.
 
 ```shell
-curl -LO "https://raw.githubusercontent.com/sourceplusplus/interface-cli/master/scripts/install.bat" && .\install.bat
+curl -LO "https://raw.sourceplus.plus/interface-cli/master/scripts/install.bat" && .\install.bat
 ```
 
 ## Help
