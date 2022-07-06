@@ -1,5 +1,3 @@
-# Introduction
-
 Source++ is the open-source live coding platform built to assist in the debugging and development of actively-running production software.
 Source++ works by enhancing your application's code through safe and completely reversible runtime modifications. These modifications are minuscule and negligible in nature, serving only to emit additional data which is collected by [Apache SkyWalking](https://skywalking.apache.org), which Source++ is proudly built on top of.
 
@@ -18,15 +16,15 @@ familiar with, and it is through this triadic arrangement that developers can sa
 
 ### Platform
 
-The [Source++ Platform](implementation/tools/platform/) is the backbone of the Source++ system. It serves
+The [Source++ Platform](technology/platform/) is the backbone of the Source++ system. It serves
 as the gateway for both probes and clients and handles auditing, authentication, and authorization.
 
 ### Probe
 
-The [Source++ Probe](implementation/tools/probe/) uses bytecode-manipulations to add live instruments in real-time, allowing developers to debug live production applications.
+The [Source++ Probe](technology/probes/) uses bytecode-manipulations to add live instruments in real-time, allowing developers to debug live production applications.
 
 ### Clients
 
-- [JetBrains Plugin](implementation/tools/clients/jetbrains-plugin.md)
-- [Command Line Interface](implementation/tools/clients/cli/)
-- [GraphQL](implementation/tools/clients/graphql.md)
+- [JetBrains Plugin](technology/clients/jetbrains-plugin.md)
+- [Command Line Interface](technology/clients/cli/)
+- [GraphQL](technology/platform/apis/graphql.md)

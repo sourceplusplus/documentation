@@ -1,10 +1,8 @@
 nav:
-  - Overview:
-    - Introduction: README.md
-    - Alternatives: alternatives
-    - Getting started: getting-started
+  - README.md
+  - Getting Started: getting-started
   - features
-  - implementation
-  - advanced
-  - ...
-  - legal
+  - technology
+  - contributing
+  - changelog
+  - reference
