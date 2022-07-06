@@ -1,8 +1,0 @@
-nav:
-  - Requirements: requirements.md
-  - Docker: docker.md
-  - Debian/Ubuntu: debian.md
-  - Windows: windows.md
-  - Kubernetes: kubernetes.md
-  - Restarting Source++: restarting.md
-  - Upgrading Source++: upgrading.md

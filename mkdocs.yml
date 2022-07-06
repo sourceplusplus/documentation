@@ -1,16 +1,16 @@
 site_name: Source++ Docs
 theme:
   palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
   logo: assets/logo.svg
-  favicon: assets/favicon.png
+  favicon: assets/logo.svg
   name: material
   custom_dir: overrides
   icon:
@@ -41,7 +41,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
 
 extra:
-  homepage: https://sourceplusplus.com
+  homepage: https://sourceplus.plus
   version:
     provider: mike
   social:
@@ -53,7 +53,7 @@ extra:
     provider: google
     property: UA-111677030-1
   spp:
-    latest_version: 0.4.6 #todo: could pull from changelog
+    latest_version: 0.5.4 #todo: could pull from changelog
 
 markdown_extensions:
   - attr_list

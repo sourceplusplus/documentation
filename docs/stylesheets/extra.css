@@ -15,7 +15,7 @@
 }
 
 [data-md-color-scheme="default"] .md-footer {
-    background: #141d22;
+    background: #122127;
 }
 
 [data-md-color-scheme="slate"] .md-footer {
@@ -23,11 +23,11 @@
 }
 
 [data-md-color-scheme="default"] .md-footer-meta {
-    background: #182d34;
+    background: #202f37;
 }
 
 [data-md-color-scheme="slate"] .md-footer-meta {
-    background: #182d34;
+    background: #202f37;
 }
 
 [data-md-color-scheme="slate"] .md-top {
@@ -79,8 +79,8 @@ td > img {
 }
 
 [data-md-color-scheme="slate"] {
-    --md-default-bg-color: #141d22;
-    --md-primary-fg-color:        #182d34;
+    --md-default-bg-color: #172127;
+    --md-primary-fg-color: #0d1216;
     --md-accent-fg-color: #e1483b;
     --md-typeset-a-color: #e1483b;
     --md-code-bg-color: #0d1216;

@@ -34,14 +34,14 @@ jobs:
           pip3 install fancyboxmd
           pip3 install mkdocs-macros-plugin
           pip3 install mkdocs-git-revision-date-localized-plugin
-      
+
       - name: Build docs
         run: mkdocs build && mv site html
 
-      - name: Update docs.sourceplusplus.com
+      - name: Update docs.sourceplus.plus
         uses: appleboy/scp-action@master
         with:
-          host: docs.sourceplusplus.com
+          host: docs.sourceplus.plus
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: 22
