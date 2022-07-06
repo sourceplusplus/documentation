@@ -1,9 +1,9 @@
 # Connect Plugin
 
-With Source++, you can add live instruments (breakpoints, logs, etc.) from the source code of your live application either from your IDE, or from the CLI. To use Source++ through your IDE, you need to first install the [Source++ Plugin](../implementation/tools/clients/jetbrains-plugin.md).
-
 !!! note
     The Source++ Plugin currently only supports [JetBrains](https://www.jetbrains.com/) IDEs.
+
+With Source++, you can add live instruments (breakpoints, logs, etc.) from the source code of your live application either from your IDE, or from the CLI. To use Source++ through your IDE, you need to first install the [Source++ Plugin](../technology/clients/jetbrains-plugin.md).
 
 ## Install Plugin
 
