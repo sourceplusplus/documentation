@@ -2,7 +2,8 @@
 
 Live Breakpoints, also referred to as "non-breaking breakpoints", are debugging instruments that can be placed in production applications during runtime. These breakpoints look and feel like conventional breakpoints except for the key difference in that live breakpoints do not pause or halt the current execution but rather record the current execution, allowing developers to debug production via retrospect.
 
-!![](../../../assets/diagrams/spp-vbp.svg)
+<img src="../../../assets/diagrams/spp-vbp.svg#only-light" alt="drawing" style="height:600px;"/>
+<img src="../../../assets/diagrams/spp-vbp_dark.svg#only-dark" alt="drawing" style="height:600px;"/>
 
 ## Creating Breakpoints
 

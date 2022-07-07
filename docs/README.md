@@ -12,7 +12,8 @@ At the highest level, Source++ works by connecting developers via authorized cli
 communication with a number of probes. These probes are in turn integrated with the production applications these developers are
 familiar with, and it is through this triadic arrangement that developers can safely interface with live production applications.
 
-!![](assets/diagrams/spp-architecture.svg)
+!![](assets/diagrams/spp-architecture.svg#only-light)
+!![](assets/diagrams/spp-architecture_dark.svg#only-dark)
 
 ### Platform
 
