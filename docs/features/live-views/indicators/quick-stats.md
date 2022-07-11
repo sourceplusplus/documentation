@@ -13,7 +13,7 @@ todo: diagram with pointers
 
 ### Command
 
-As with other indicators, the **Quick Stats Indicator** can be enabled and disabled for specific contexts via the [Live Command Palette](../../live-commands/live-command-palette.md). Using the <kbd>show quick stats</kbd>/<kbd>hide quick stats</kbd> command developers can quickly display or hide this indicator. These preferences will only affect the current developer and will be persisted across IDE reboots.
+As with other indicators, the **Quick Stats Indicator** can be enabled and disabled for specific contexts via the [Live Command Palette](../../live-commands/README.md#live-command-palette). Using the <kbd>show quick stats</kbd>/<kbd>hide quick stats</kbd> command developers can quickly display or hide this indicator. These preferences will only affect the current developer and will be persisted across IDE reboots.
 
 #### Screencast
 

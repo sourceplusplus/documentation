@@ -72,4 +72,4 @@ A value which has been extracted/deduced from a live software application.
 
 ### [Source Portal](../features/live-views/source-portal.md)
 
-### [Live Command Palette](../features/live-commands/live-command-palette.md)
+### [Live Command Palette](../features/live-commands/README.md#live-command-palette)

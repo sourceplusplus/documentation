@@ -3,7 +3,7 @@
 !!! note
     The Source++ Plugin currently only supports [JetBrains](https://www.jetbrains.com/) IDEs.
 
-With Source++, you can add live instruments (breakpoints, logs, etc.) from the source code of your live application either from your IDE, or from the CLI. To use Source++ through your IDE, you need to first install the [Source++ Plugin](../technology/clients/jetbrains-plugin.md).
+With Source++, you can add live instruments (breakpoints, logs, etc.) from your application's source code either via IDE, CLI, or API. To use Source++ via your IDE, you need to first install the [Source++ Plugin](../technology/clients/jetbrains-plugin.md). The following steps will help you install the plugin.
 
 ## Install Plugin
 
@@ -16,7 +16,9 @@ With Source++, you can add live instruments (breakpoints, logs, etc.) from the s
 
 ## Configure Plugin
 
-Before you can work from your IDE with Source++, you need to connect the plugin with your SkyWalking/live-platform environment. To connect your plugin, follow these steps:
+Before you can use Source++ inside your IDE, you will need to connect the plugin to the platform.
+
+To connect your plugin, follow these steps:
 
 1. Open the Source++ plugin configuration page
     1. Navigate to: <kbd>File</kbd> > <kbd>Settings</kbd> > <kbd>Tools</kbd> > <kbd>Source++</kbd>
@@ -24,6 +26,7 @@ Before you can work from your IDE with Source++, you need to connect the plugin 
 1. Input the service host and access token provided (if necessary)
 1. If `Root Source Package` is empty, input the base common package of your application
     1. E.g. `com.company.application`
+1. Click `Apply`
 
 ---
 
