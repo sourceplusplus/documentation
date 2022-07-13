@@ -26,6 +26,7 @@
 
 #### Changed
 - Upgraded SkyWalking agent to 8.11.0
+- Configuration `spp.disable_tls` to `spp.ssl_enabled`
 
 ### [Live Platform](https://github.com/sourceplusplus/live-platform)
 
@@ -43,6 +44,8 @@
 #### Changed
 - Configuration option from `skywalking-oap.port` to `skywalking-oap.rest_port`
 - Environment configuration option from `SPP_SYSTEM_ACCESS_TOKEN` to `SPP_JWT_ACCESS_TOKEN`
+- Environment configuration option from `SPP_DISABLE_JWT` to `SPP_JWT_ENABLED`
+- Environment configuration option from `SPP_DISABLE_TLS` to `SPP_HTTP_SSL_ENABLED`
 
 #### Fixed
 - JVM probe generator
