@@ -5,9 +5,18 @@
 #### Added
 - Live Dashboard
 
+#### Changed
+- Merged processors into live-platform
+- Merged live-platform into skywalking-oap
+
 ### [JetBrains Plugin](https://github.com/sourceplusplus/interface-jetbrains)
 
 ### Added
+- Clustering functionality
+- Programmable Live Indicators
+- Slow endpoint indicator
+- Failing endpoint indicator
+- Quick stats indicator
 - Support for multilingual projects
 - Python Flask endpoint detection
 
