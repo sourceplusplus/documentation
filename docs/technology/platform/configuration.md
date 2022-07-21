@@ -5,26 +5,22 @@
 ```yaml
 spp-platform:
   host: ${SPP_PLATFORM_HOST:-0.0.0.0}
+  jwt:
+    enabled: ${SPP_JWT_ENABLED:-true}
+    access_token: ${SPP_JWT_ACCESS_TOKEN:-change-me}
   http:
-    port: ${SPP_HTTP_PORT:-443}
+    port: ${SPP_HTTP_PORT:-12800,443}
     ssl_enabled: ${SPP_HTTP_SSL_ENABLED:-true}
     redirect_to_https: ${SPP_HTTP_REDIRECT_TO_HTTPS:-true}
   grpc:
     port: ${SPP_GRPC_PORT:-11800}
     ssl_enabled: ${SPP_GRPC_SSL_ENABLED:-true}
-  access_token: ${SPP_SYSTEM_ACCESS_TOKEN:-change-me}
   logging:
     level: ${SPP_LOGGING_LEVEL:-info}
   probe:
     bridge_port: ${SPP_PROBE_BRIDGE_PORT:-5450}
   marker:
     bridge_port: ${SPP_MARKER_BRIDGE_PORT:-5455}
-  processor:
-    bridge_port: ${SPP_PROCESSOR_BRIDGE_PORT:-5460}
-    live-instrument:
-      enabled: ${SPP_PROCESSOR_LIVE_INSTRUMENT_ENABLED:-true}
-    live-view:
-      enabled: ${SPP_PROCESSOR_LIVE_VIEW_ENABLED:-true}
   pii-redaction:
     enabled: ${SPP_PII_REDACTION_ENABLED:-true}
     redactions:
@@ -64,30 +60,33 @@ spp-platform:
 storage:
   selector: ${SPP_STORAGE:-memory}
   redis:
-    host: ${SPP_REDIS_HOST:-localhost}
-    port: ${SPP_REDIS_PORT:-6379}
+    host: ${SPP_STORAGE_HOST:-localhost}
+    port: ${SPP_STORAGE_PORT:-6379}
 
 skywalking-oap:
   host: ${SPP_OAP_HOST:-localhost}
-  rest_port: ${SPP_OAP_REST_PORT:-12800}
-  grpc_port: ${SPP_OAP_GRPC_PORT:-11800}
+  rest_port: ${SW_CORE_REST_PORT:-12801}
+  grpc_port: ${SW_CORE_GRPC_PORT:-11801}
 ```
 
 ## Configuration options
 
-| Option                                             | Default   | Description                                            |
-|:---------------------------------------------------|-----------|:-------------------------------------------------------|
-| **spp-platform:host**                              | 0.0.0.0   | Platform host to listen on                             |
-| **spp-platform:port**                              | 12800     | Platform port to listen on                             |
-| **spp-platform:access_token**                      | change-me | System access token                                    |
-| **spp-platform:logging:level**                     | info      | Platform logging level                                 |
-| **spp-platform:probe:bridge_port**                 | 5450      | Port to listen on for Source++ Probe connections       |
-| **spp-platform:plugin:bridge_port**                | 5455      | Port to listen on for Source++ Plugin connections      |
-| **spp-platform:processor:bridge_port**             | 5460      | Port to listen on for SkyWalking processor connections |
-| **spp-platform:processor:live-instrument:enabled** | true      | Whether to enabled Live Instrument processor           |
-| **spp-platform:processor:live-view:enabled**       | true      | Whether to enabled Live View processor                 |
-| **storage:selector**                               | memory    | Where live data is saved                               |
-| **storage:redis:host**                             | localhost | Host to connect to Redis                               |
-| **storage:redis:port**                             | 6379      | Port to connect to Redis                               |
-| **skywalking-oap:host**                            | localhost | Host to connect to SkyWalking                          |
-| **skywalking-oap:port**                            | 12800     | Port to connect to SkyWalking                          |
+| Option                                  | Default   | Description                                                      |
+|:----------------------------------------|-----------|:-----------------------------------------------------------------|
+| **spp-platform:host**                   | 0.0.0.0   | Platform host to listen on                                       |
+| **spp-platform:jwt:enabled**            | true      | Whether or not to enabled jwt access                             |
+| **spp-platform:jwt:access_token**       | change-me | System access token                                              |
+| **spp-platform:http:port**              | 12800     | Port to listen on for http connections                           |
+| **spp-platform:http:ssl_enabled**       | true      | Whether or not to use SSL on http(s) connections                 |
+| **spp-platform:http:redirect_to_https** | true      | Whether or not redirect http connections to https                |
+| **spp-platform:grpc:port**              | 11800     | Port to listen on for GRPC connections                           |
+| **spp-platform:grpc:ssl_enabled**       | 11800     | Whether or not to use SSL on GRPC connections                    |
+| **spp-platform:logging:level**          | info      | Platform logging level                                           |
+| **spp-platform:probe:bridge_port**      | 5450      | Port to listen on for Source++ Probe connections                 |
+| **spp-platform:marker:bridge_port**     | 5455      | Port to listen on for Source++ Marker connections (e.g. Plugins) |
+| **storage:selector**                    | memory    | Where live data is saved                                         |
+| **storage:redis:host**                  | localhost | Host to connect to Redis                                         |
+| **storage:redis:port**                  | 6379      | Port to connect to Redis                                         |
+| **skywalking-oap:host**                 | localhost | Host to connect to SkyWalking                                    |
+| **skywalking-oap:rest_port**            | 12801     | Port to connect to SkyWalking REST API                           |
+| **skywalking-oap:grpc_port**            | 11801     | Port to connect to SkyWalking GRPC                               |
