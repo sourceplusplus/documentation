@@ -10,8 +10,6 @@ spp:
 skywalking:
   agent:
     service_name: "<company-name>"
-  collector:
-    backend_service: "<company-name>.srcpl.us:11800"
 ```
 
 !!! note
