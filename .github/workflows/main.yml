@@ -33,6 +33,7 @@ jobs:
         run: mkdocs build && mv site html
 
       - name: Update docs.sourceplus.plus
+        if: github.ref == 'refs/heads/master'
         uses: appleboy/scp-action@master
         with:
           host: docs.sourceplus.plus
