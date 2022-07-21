@@ -18,11 +18,14 @@ skywalking:
 
 ## Probe options
 
-| Option                       | Default | Description                               |
-|:-----------------------------|---------|:------------------------------------------|
-| **spp:platform_host**        |         | Platform host to connect to               |
-| **spp:platform_port**        |         | Platform port to connect to               |
-| **spp:platform_certificate** |         | Public key for connecting to the platform |
+| Option                       | Default                  | Description                               |
+|:-----------------------------|--------------------------|:------------------------------------------|
+| **spp:platform_host**        |                          | Platform host to connect to               |
+| **spp:platform_port**        |                          | Platform port to connect to               |
+| **spp:platform_certificate** |                          | Public key for connecting to the platform |
+| **spp:ssl_enabled**          | env.SPP_HTTP_SSL_ENABLED | Whether to use SSL or not                 |
+| **spp:verify_host**          | true                     | Whether to verify the certificate or not  |
+| **spp:probe_metadata**       |                          | Additional metadata to add to the probe   |
 
 ## SkyWalking options
 
