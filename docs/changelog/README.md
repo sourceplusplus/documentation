@@ -19,9 +19,13 @@
 - Quick stats indicator
 - Support for multilingual projects
 - Python Flask endpoint detection
+- Live Command default/relative icons
+- `Self Info` live command
+- `Platform Stats` live command
 
 ### Changed
 - Improved dynamic plugin loading
+- Live Commands location moved from `.spp/commands` to `.spp/plugins`
 
 #### Fixed
 - Action conflicts with LivePlugin
@@ -31,7 +35,7 @@
 ### [JVM Probe](https://github.com/sourceplusplus/probe-jvm)
 
 ### Added
-- Automatically create ca/ca.crt if not present
+- Automatically create `ca/ca.crt` if not present
 
 #### Changed
 - Upgraded SkyWalking agent to 8.11.0
@@ -41,6 +45,7 @@
 
 #### Added
 - SkyWalking gRPC proxy
+- Improved processing of array/list variable types
 - `spp-platform.jwt.enabled` configuration option
 - `spp-platform.jwt.access_token` configuration option
 - `spp-platform.http.port` configuration option
