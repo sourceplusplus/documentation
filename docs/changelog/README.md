@@ -11,7 +11,7 @@
 
 ### [JetBrains Plugin](https://github.com/sourceplusplus/interface-jetbrains)
 
-### Added
+#### Added
 - Programmable Live Indicators
     - Slow endpoint indicator
     - Failing endpoint indicator
@@ -22,7 +22,7 @@
 - `Self Info` live command
 - `Platform Stats` live command
 
-### Changed
+#### Changed
 - Improved dynamic plugin loading
 - Live Commands location moved from `.spp/commands` to `.spp/plugins`
 
@@ -33,7 +33,7 @@
 
 ### [JVM Probe](https://github.com/sourceplusplus/probe-jvm)
 
-### Added
+#### Added
 - Automatically create `ca/ca.crt` if not present
 - Default configuration value for `skywalking.collector.backend_service` (when `spp.platform_host` is set)
 
