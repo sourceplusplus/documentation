@@ -13,9 +13,9 @@
 
 ### Added
 - Programmable Live Indicators
-  - Slow endpoint indicator
-  - Failing endpoint indicator
-  - Quick stats indicator
+    - Slow endpoint indicator
+    - Failing endpoint indicator
+    - Quick stats indicator
 - Support for multilingual projects
 - Python Flask endpoint detection
 - Live Command default/relative icons
@@ -50,21 +50,21 @@
 
 #### Added
 - Increased modularization
-  - `platform:bridge` module
-  - `platform:common` module
-  - `platform:dashboard` module
-  - `platform:processor:live-instrument` module
-  - `platform:processor:live-view` module
-  - `platform:storage` module
+    - `platform:bridge` module
+    - `platform:common` module
+    - `platform:dashboard` module
+    - `platform:processor:live-instrument` module
+    - `platform:processor:live-view` module
+    - `platform:storage` module
 - Increased configuration
-  - `spp-platform.jwt.enabled` configuration option
-  - `spp-platform.jwt.access_token` configuration option
-  - `spp-platform.http.port` configuration option
-  - `spp-platform.http.ssl_enabled` configuration option
-  - `spp-platform.http.redirect_to_https` configuration option
-  - `spp-platform.grpc.port` configuration option
-  - `spp-platform.grpc.ssl_enabled` configuration option
-  - `skywalking-oap.grpc_port` configuration option
+    - `spp-platform.jwt.enabled` configuration option
+    - `spp-platform.jwt.access_token` configuration option
+    - `spp-platform.http.port` configuration option
+    - `spp-platform.http.ssl_enabled` configuration option
+    - `spp-platform.http.redirect_to_https` configuration option
+    - `spp-platform.grpc.port` configuration option
+    - `spp-platform.grpc.ssl_enabled` configuration option
+    - `skywalking-oap.grpc_port` configuration option
 - SkyWalking gRPC proxy
 - Improved processing of array/list variable types
 - Probe SockJS eventbus bridge
