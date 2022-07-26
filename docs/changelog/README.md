@@ -80,10 +80,10 @@
 - JVM probe generator
 
 #### Removed
-- Documentation submodule
-- dependencies submodule
-- live-instrument submodule
-- live-view submodule
+- Documentation git submodule
+- dependencies git submodule
+- live-instrument git submodule
+- live-view git submodule
 
 ### New Contributors
 - [MrMineO5](https://github.com/MrMineO5) made their first contribution in [#422](https://github.com/sourceplusplus/live-platform/pull/422)
