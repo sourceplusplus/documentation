@@ -35,27 +35,42 @@
 
 ### Added
 - Automatically create `ca/ca.crt` if not present
+- Default configuration value for `skywalking.collector.backend_service` (when `spp.platform_host` is set)
 
 #### Changed
 - Upgraded SkyWalking agent to 8.11.0
 - Configuration `spp.disable_tls` to `spp.ssl_enabled`
 
+### [Live CLI](https://github.com/sourceplusplus/interface-cli)
+
+#### Changed
+- Environment configuration option from `SPP_DISABLE_TLS` to `SPP_HTTP_SSL_ENABLED`
+
 ### [Live Platform](https://github.com/sourceplusplus/live-platform)
 
 #### Added
-- Clustering functionality
+- Increased modularization
+  - `platform:bridge` module
+  - `platform:common` module
+  - `platform:dashboard` module
+  - `platform:processor:live-instrument` module
+  - `platform:processor:live-view` module
+  - `platform:storage` module
+- Increased configuration
+  - `spp-platform.jwt.enabled` configuration option
+  - `spp-platform.jwt.access_token` configuration option
+  - `spp-platform.http.port` configuration option
+  - `spp-platform.http.ssl_enabled` configuration option
+  - `spp-platform.http.redirect_to_https` configuration option
+  - `spp-platform.grpc.port` configuration option
+  - `spp-platform.grpc.ssl_enabled` configuration option
+  - `skywalking-oap.grpc_port` configuration option
 - SkyWalking gRPC proxy
 - Improved processing of array/list variable types
-- `spp-platform.jwt.enabled` configuration option
-- `spp-platform.jwt.access_token` configuration option
-- `spp-platform.http.port` configuration option
-- `spp-platform.http.ssl_enabled` configuration option
-- `spp-platform.http.redirect_to_https` configuration option
-- `spp-platform.grpc.port` configuration option
-- `spp-platform.grpc.ssl_enabled` configuration option
-- `skywalking-oap.grpc_port` configuration option
+- Probe SockJS eventbus bridge
 
 #### Changed
+- Upgraded SkyWalking OAP to 9.1.0
 - Configuration option from `skywalking-oap.port` to `skywalking-oap.rest_port`
 - Environment configuration option from `SPP_SYSTEM_ACCESS_TOKEN` to `SPP_JWT_ACCESS_TOKEN`
 - Environment configuration option from `SPP_DISABLE_JWT` to `SPP_JWT_ENABLED`
@@ -66,6 +81,9 @@
 
 #### Removed
 - Documentation submodule
+- dependencies submodule
+- live-instrument submodule
+- live-view submodule
 
 ### New Contributors
 - [MrMineO5](https://github.com/MrMineO5) made their first contribution in [#422](https://github.com/sourceplusplus/live-platform/pull/422)
