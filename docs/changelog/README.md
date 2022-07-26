@@ -12,11 +12,10 @@
 ### [JetBrains Plugin](https://github.com/sourceplusplus/interface-jetbrains)
 
 ### Added
-- Clustering functionality
 - Programmable Live Indicators
-- Slow endpoint indicator
-- Failing endpoint indicator
-- Quick stats indicator
+  - Slow endpoint indicator
+  - Failing endpoint indicator
+  - Quick stats indicator
 - Support for multilingual projects
 - Python Flask endpoint detection
 - Live Command default/relative icons
@@ -44,6 +43,7 @@
 ### [Live Platform](https://github.com/sourceplusplus/live-platform)
 
 #### Added
+- Clustering functionality
 - SkyWalking gRPC proxy
 - Improved processing of array/list variable types
 - `spp-platform.jwt.enabled` configuration option
@@ -66,3 +66,6 @@
 
 #### Removed
 - Documentation submodule
+
+### New Contributors
+- [MrMineO5](https://github.com/MrMineO5) made their first contribution in [#422](https://github.com/sourceplusplus/live-platform/pull/422)
