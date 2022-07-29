@@ -11,5 +11,8 @@
 
 ### [Live Platform](https://github.com/sourceplusplus/live-platform)
 
+#### Added
+- SockJS marker bridge
+
 #### Fixed
 - Incorrect probe & marker counters in `/stats`
