@@ -9,34 +9,34 @@ You can use the platform to generate a probe which contains embedded connection 
 The following command will download the latest probe version:
 
 ```shell
-curl -O -J https://<platform-host>/download/spp-probe?access_token=<access-token>
+curl -O -J https://<platform-host>/download/jvm-probe.jar?access_token=<access-token>
 ```
 
 ??? example "Example: Download the latest version"
     ```
-    curl -O -J https://localhost/download/spp-probe?access_token=change-me
+    curl -O -J https://localhost/download/jvm-probe.jar?access_token=change-me
     ```
 
 To download a specific version, use the following command:
 
 ```shell
-curl -O -J https://<platform-host>/download/spp-probe?access_token=<access-token>&version=<version>
+curl -O -J https://<platform-host>/download/jvm-probe.jar?access_token=<access-token>&version=<version>
 ```
 
 ??? example "Example: Download version {{ spp.latest_version }}"
     ```
-    curl -O -J https://localhost/download/spp-probe?access_token=change-me&version={{ spp.latest_version }}
+    curl -O -J https://localhost/download/jvm-probe.jar?access_token=change-me&version={{ spp.latest_version }}
     ```
 
 To set the service name, use the following command:
 
 ```shell
-curl -O -J https://<platform-host>/download/spp-probe?access_token=<access-token>&service_name=<service-name>
+curl -O -J https://<platform-host>/download/jvm-probe.jar?access_token=<access-token>&service_name=<service-name>
 ```
 
 ??? example "Example: Download probe with service name "my-cool-app""
     ```
-    curl -O -J https://localhost/download/spp-probe?access_token=change-me&service_name=my-cool-app
+    curl -O -J https://localhost/download/jvm-probe.jar?access_token=change-me&service_name=my-cool-app
     ```
 
 ## Usage
