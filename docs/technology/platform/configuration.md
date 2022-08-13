@@ -17,10 +17,6 @@ spp-platform:
     ssl_enabled: ${SPP_GRPC_SSL_ENABLED:-true}
   logging:
     level: ${SPP_LOGGING_LEVEL:-info}
-  probe:
-    bridge_port: ${SPP_PROBE_BRIDGE_PORT:-5450}
-  marker:
-    bridge_port: ${SPP_MARKER_BRIDGE_PORT:-5455}
   pii-redaction:
     enabled: ${SPP_PII_REDACTION_ENABLED:-true}
     redactions:
@@ -82,8 +78,6 @@ skywalking-oap:
 | **spp-platform:grpc:port**              | 11800     | Port to listen on for GRPC connections                           |
 | **spp-platform:grpc:ssl_enabled**       | 11800     | Whether or not to use SSL on GRPC connections                    |
 | **spp-platform:logging:level**          | info      | Platform logging level                                           |
-| **spp-platform:probe:bridge_port**      | 5450      | Port to listen on for Source++ Probe connections                 |
-| **spp-platform:marker:bridge_port**     | 5455      | Port to listen on for Source++ Marker connections (e.g. Plugins) |
 | **storage:selector**                    | memory    | Where live data is saved                                         |
 | **storage:redis:host**                  | localhost | Host to connect to Redis                                         |
 | **storage:redis:port**                  | 6379      | Port to connect to Redis                                         |
