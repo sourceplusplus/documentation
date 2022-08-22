@@ -5,10 +5,10 @@
 ## Requirements
 
 - [JetBrains IDE](https://www.jetbrains.com)
-    - IntelliJ IDEA Community — 2020.2 — 2021.2.2
-    - IntelliJ IDEA Educational — 2020.2 — 2021.2.2
-    - IntelliJ IDEA Ultimate — 2020.2 — 2021.2.2
-    - Android Studio — 202.4357 — 213.*
+    - IntelliJ IDEA Community — 2022.1+
+    - IntelliJ IDEA Educational — 2022.1+
+    - IntelliJ IDEA Ultimate — 2022.1+
+    - Android Studio — 2022.1+
   
 ## Installation
 
