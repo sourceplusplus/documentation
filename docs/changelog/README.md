@@ -4,6 +4,6 @@
 
 #### Fixed
 - SourceFileMarker concurrent modification exception
-- Notifications display on correct project
+- Notifications displaying on incorrect projects
 - Attempted duplicate abstract class definition error in live plugins
 - Class not found error in control bar on non-IntelliJ IDEs
