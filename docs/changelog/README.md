@@ -7,8 +7,6 @@
 
 #### Changed
 - Increased verbose output
-
-#### Removed
 - Moved .graphql schema files from CLI to protocol
 
 ### [Live Platform](https://github.com/sourceplusplus/live-platform)
@@ -25,7 +23,7 @@
 
 ### [Live Protocol](https://github.com/sourceplusplus/protocol)
 
-#### Added
+#### Changed
 - Moved .graphql schema files from CLI to protocol
 
 ### [JetBrains Plugin](https://github.com/sourceplusplus/interface-jetbrains)
