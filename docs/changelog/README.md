@@ -25,6 +25,7 @@
 
 #### Changed
 - Moved .graphql schema files from CLI to protocol
+- Replaced `LiveService` with `LiveManagementService`
 
 ### [JetBrains Plugin](https://github.com/sourceplusplus/interface-jetbrains)
 
