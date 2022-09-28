@@ -9,9 +9,9 @@ spp-platform:
     enabled: ${SPP_JWT_ENABLED:-true}
     access_token: ${SPP_JWT_ACCESS_TOKEN:-change-me}
   http:
-    port: ${SPP_HTTP_PORT:-12800,443}
-    ssl_enabled: ${SPP_HTTP_SSL_ENABLED:-true}
-    redirect_to_https: ${SPP_HTTP_REDIRECT_TO_HTTPS:-true}
+    port: ${SPP_HTTP_PORT:-12800}
+    ssl_enabled: ${SPP_HTTP_SSL_ENABLED:-false}
+    redirect_to_https: ${SPP_HTTP_REDIRECT_TO_HTTPS:-false}
   grpc:
     port: ${SPP_GRPC_PORT:-11800}
     ssl_enabled: ${SPP_GRPC_SSL_ENABLED:-true}
@@ -73,10 +73,10 @@ skywalking-oap:
 | **spp-platform:jwt:enabled**            | true      | Whether or not to enabled jwt access                             |
 | **spp-platform:jwt:access_token**       | change-me | System access token                                              |
 | **spp-platform:http:port**              | 12800     | Port to listen on for http connections                           |
-| **spp-platform:http:ssl_enabled**       | true      | Whether or not to use SSL on http(s) connections                 |
-| **spp-platform:http:redirect_to_https** | true      | Whether or not redirect http connections to https                |
+| **spp-platform:http:ssl_enabled**       | false     | Whether or not to use SSL on http(s) connections                 |
+| **spp-platform:http:redirect_to_https** | false     | Whether or not redirect http connections to https                |
 | **spp-platform:grpc:port**              | 11800     | Port to listen on for GRPC connections                           |
-| **spp-platform:grpc:ssl_enabled**       | 11800     | Whether or not to use SSL on GRPC connections                    |
+| **spp-platform:grpc:ssl_enabled**       | false     | Whether or not to use SSL on GRPC connections                    |
 | **spp-platform:logging:level**          | info      | Platform logging level                                           |
 | **storage:selector**                    | memory    | Where live data is saved                                         |
 | **storage:redis:host**                  | localhost | Host to connect to Redis                                         |
