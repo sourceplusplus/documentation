@@ -38,7 +38,7 @@
 
 #### Added
 - Basic support for JavaScript-based source code
-- Info bar to footer of command palette
+- Info bar footer to command palette
 - Tooltips to live indicator gutter icons
 - Ability to add custom tooltips to guide marks
 - `Tail Logs` command
