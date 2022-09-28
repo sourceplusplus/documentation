@@ -1,5 +1,5 @@
 ## live-platform
-> [https://github.com/sourceplusplus/live-platform](https://github.com/sourceplusplus/live-platform)
+> [https://github.com/sourceplusplus/sourceplusplus](https://github.com/sourceplusplus/sourceplusplus)
 
 | Library                                                         | License                                                          |
 |-----------------------------------------------------------------|------------------------------------------------------------------|

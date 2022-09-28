@@ -10,12 +10,12 @@
     If you want to build a release from source codes, set a `tag name` by using `git clone -b [tag_name] ...` while cloning.
 
     ```bash
-    git clone --recurse-submodules https://github.com/sourceplusplus/live-platform
+    git clone --recurse-submodules https://github.com/sourceplusplus/sourceplusplus
     cd live-platform/
     ```
     **OR**
     ```bash
-    git clone https://github.com/sourceplusplus/live-platform
+    git clone https://github.com/sourceplusplus/sourceplusplus
     cd live-platform/
     git submodule init
     git submodule update

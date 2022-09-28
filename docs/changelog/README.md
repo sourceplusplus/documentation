@@ -1,6 +1,6 @@
 # Unreleased
 
-### [Live Platform](https://github.com/sourceplusplus/live-platform)
+### [Live Platform](https://github.com/sourceplusplus/sourceplusplus)
 
 #### Changed
 - Upgraded SkyWalking OAP to 9.2.0

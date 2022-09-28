@@ -17,7 +17,7 @@ The first step is to boot the Source++ Live Platform. This following instruction
 
 ### Setup
 
-1. Download the [docker-compose.yml](https://github.com/sourceplusplus/live-platform/blob/master/docker/docker-compose.yml) file into a new empty directory (can be anywhere).
+1. Download the [docker-compose.yml](https://github.com/sourceplusplus/sourceplusplus/blob/master/docker/docker-compose.yml) file into a new empty directory (can be anywhere).
 
     ```sh
     mkdir ~/spp-platform && cd ~/spp-platform
@@ -32,7 +32,7 @@ The first step is to boot the Source++ Live Platform. This following instruction
 
 ## Troubleshooting
 
-If installation fails, check the list of common installation issues. If your problem is not listed, please open a new issue or discussion on [GitHub](https://github.com/sourceplusplus/live-platform), and we will try to help you.
+If installation fails, check the list of common installation issues. If your problem is not listed, please open a new issue or discussion on [GitHub](https://github.com/sourceplusplus/sourceplusplus), and we will try to help you.
 
 ---
 
