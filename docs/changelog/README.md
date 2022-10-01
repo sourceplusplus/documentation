@@ -3,21 +3,25 @@
 ### [Live CLI](https://github.com/sourceplusplus/interface-cli)
 
 #### Added
-
+- View name & view metrics configuration to `add view` command
+- Meter id & meter description configuration to `add meter` command
 
 #### Changed
-
+- SSL disabled by default
+- Renamed `update-client-access` to `refresh-client-access`
+- Improved clustering support
 
 ### [Live Platform](https://github.com/sourceplusplus/sourceplusplus)
 
 #### Added
-
+- Ability to subscribe to real-time metrics
 
 #### Changed
-
+- SSL/JWT disabled by default
 
 #### Fixed
-
+- gRPC streaming issue
+- Issue establishing connections with Python probes
 
 ### [Live Protocol](https://github.com/sourceplusplus/protocol)
 
@@ -58,7 +62,6 @@
 #### Removed
 - Root source package configuration
 
-
 ### [JVM Probe](https://github.com/sourceplusplus/probe-jvm)
 
 #### Added
@@ -72,3 +75,16 @@
 
 #### Fixed
 - Java early access versions not being detected
+
+### [Node.js Probe](https://github.com/sourceplusplus/probe-nodejs)
+
+#### Added
+- Basic support for live breakpoints and live logs
+
+### [Python Probe](https://github.com/sourceplusplus/probe-python)
+
+#### Changed
+- SSL disabled by default
+
+#### Fixed
+- Automatically remove expired live instruments
