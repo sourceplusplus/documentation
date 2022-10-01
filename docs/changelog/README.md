@@ -9,7 +9,6 @@
 #### Changed
 - SSL disabled by default
 - Renamed `update-client-access` to `refresh-client-access`
-- Improved clustering support
 
 ### [Live Platform](https://github.com/sourceplusplus/sourceplusplus)
 
@@ -18,6 +17,7 @@
 
 #### Changed
 - SSL/JWT disabled by default
+- Improved clustering support
 
 #### Fixed
 - gRPC streaming issue
@@ -26,7 +26,7 @@
 ### [Live Protocol](https://github.com/sourceplusplus/protocol)
 
 ### Added
-- Concrete typed convenience methods to LiveInstrumentService
+- Introduced concrete typed convenience methods to LiveInstrumentService
 - `meterDescription` to LiveMeter
 
 #### Changed
