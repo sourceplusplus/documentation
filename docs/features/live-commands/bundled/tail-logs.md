@@ -17,3 +17,7 @@ statement, the command will display logs for that statement. The same is true fo
 ## Parameters
 
 - None
+
+## Demonstration
+
+![](../../../assets/screencasts/tail-logs-command.gif)

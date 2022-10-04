@@ -12,3 +12,7 @@ need them and show them again if you do.
 ## Parameters
 
 - None
+
+## Demonstration
+
+![](../../../assets/screencasts/show-hide-meters.gif)

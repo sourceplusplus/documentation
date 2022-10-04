@@ -6,6 +6,10 @@
 
 The Live Command Palette (LCP) is a programmable contextual command prompt, included in the [JetBrains Plugin](../../technology/clients/jetbrains-plugin.md), that allows developers to control and query live applications from their IDE. Opened via keyboard shortcut (++ctrl+shift+s++), the LCP allows developers to easily view metrics relevant to the source code they're currently viewing.
 
+#### UI Overview
+
+![](../../assets/screenshots/live-command-palette.png)
+
 ### Bundled Commands
 
 The following commands are pre-defined in the Live Command Palette:
@@ -23,4 +27,4 @@ The following commands are pre-defined in the Live Command Palette:
     - [View Logs](./bundled/view-logs.md)
     - [View Traces](./bundled/view-traces.md)
 
-Adding new commands is accomplished by adding files to the `.spp\commands` directory in the project root. You can use the `new-command` command to create a new command template. For more information, see the [New Command](../defined/new-command.md) command.
+Adding new commands is accomplished by adding files to the `.spp\commands` directory in the project root. You can use the `new-command` command to create a new command template. For more information, see the [New Command](bundled/new-command.md) command.

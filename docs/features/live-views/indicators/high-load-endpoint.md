@@ -8,4 +8,4 @@ The **High Load Endpoint Indicator** signals the top 20% of endpoints that are e
 
 ### Demonstration
 
-![](../../../assets/screencasts/high-load.gif)
+![](../../../assets/screencasts/high-load-endpoint.gif)

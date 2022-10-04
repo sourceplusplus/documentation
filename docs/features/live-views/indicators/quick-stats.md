@@ -10,4 +10,4 @@ expected.
 
 ## Screencast
 
-![](../../../assets/screencasts/show_quick_stats_command.gif)
+![](../../../assets/screencasts/quick-stats.gif)
