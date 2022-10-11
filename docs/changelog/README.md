@@ -3,6 +3,7 @@
 ### [JetBrains Plugin](https://github.com/sourceplusplus/interface-jetbrains)
 
 #### Added
+- Micronaut endpoint detector
 - UrlResolveManager endpoint detector (IntelliJ Ultimate only)
 - Ability to open LCP with function/class scope
 - Ability to add instruments before/after line
