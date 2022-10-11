@@ -12,7 +12,7 @@
 - No provider for language TypeScript/VueJS/etc
 - Concat LCP location placeholder on long signature
 - Log detection not working for Groovy
-- ClassCastException in express endpoint detector
+- ClassCastException in Express endpoint detector
 
 ### [JVM Probe](https://github.com/sourceplusplus/probe-jvm)
 
