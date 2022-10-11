@@ -1,1 +1,20 @@
 # Unreleased
+
+### [JetBrains Plugin](https://github.com/sourceplusplus/interface-jetbrains)
+
+#### Added
+- UrlResolveManager endpoint detector (IntelliJ Ultimate only)
+- Ability to open LCP with function/class scope
+- Ability to add instruments before/after line
+
+#### Fixed
+- Live variable decoding error on Python dicts
+- No provider for language TypeScript/VueJS/etc
+- Concat LCP location placeholder on long signature
+- Log detection not working for Groovy
+- ClassCastException in express endpoint detector
+
+### [JVM Probe](https://github.com/sourceplusplus/probe-jvm)
+
+#### Fixed
+- Hit throttles are now atomic
