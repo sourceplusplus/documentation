@@ -11,12 +11,12 @@
 
     ```bash
     git clone --recurse-submodules https://github.com/sourceplusplus/sourceplusplus
-    cd live-platform/
+    cd sourceplusplus/
     ```
     **OR**
     ```bash
     git clone https://github.com/sourceplusplus/sourceplusplus
-    cd live-platform/
+    cd sourceplusplus/
     git submodule init
     git submodule update
     ```
