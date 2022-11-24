@@ -11,10 +11,9 @@ spp-platform:
   http:
     port: ${SPP_HTTP_PORT:-12800}
     ssl_enabled: ${SPP_HTTP_SSL_ENABLED:-false}
+    ssl_cert: ${SPP_HTTP_SSL_CERT:-}
+    ssl_key: ${SPP_HTTP_SSL_KEY:-}
     redirect_to_https: ${SPP_HTTP_REDIRECT_TO_HTTPS:-false}
-  grpc:
-    port: ${SPP_GRPC_PORT:-11800}
-    ssl_enabled: ${SPP_GRPC_SSL_ENABLED:-false}
   logging:
     level: ${SPP_LOGGING_LEVEL:-info}
   pii-redaction:
@@ -53,34 +52,56 @@ spp-platform:
         lookup: '\b\d{5}[- ]?\d{4}\b'
         replacement: "<Zip Code>"
 
+client-access:
+  enabled: ${SPP_CLIENT_ACCESS_ENABLED:-false}
+  accessors:
+    - id: ${SPP_CLIENT_ACCESS_ID:-}
+      secret: ${SPP_CLIENT_ACCESS_SECRET:-}
+
 storage:
   selector: ${SPP_STORAGE:-memory}
   redis:
     host: ${SPP_STORAGE_HOST:-localhost}
     port: ${SPP_STORAGE_PORT:-6379}
+    cluster:
+      enabled: ${SPP_STORAGE_CLUSTER_ENABLED:-false}
 
-skywalking-oap:
+skywalking-core:
   host: ${SW_CORE_HOST:-localhost}
   rest_port: ${SW_CORE_REST_PORT:-12801}
-  grpc_port: ${SW_CORE_GRPC_PORT:-11801}
+  grpc:
+    port: ${SW_CORE_GRPC_PORT:-11800}
+    ssl_enabled: ${SW_CORE_GRPC_SSL_ENABLED:-false}
+    ssl_key_path: ${SW_CORE_GRPC_SSL_KEY_PATH:-}
+    ssl_cert_chain_path: ${SW_CORE_GRPC_SSL_CERT_CHAIN_PATH:-}
+    ssl_trusted_ca_path: ${SW_CORE_GRPC_SSL_TRUSTED_CA_PATH:-}
+
 ```
 
 ## Configuration options
 
-| Option                                  | Default   | Description                                                      |
-|:----------------------------------------|-----------|:-----------------------------------------------------------------|
-| **spp-platform:host**                   | 0.0.0.0   | Platform host to listen on                                       |
-| **spp-platform:jwt:enabled**            | true      | Whether or not to enabled jwt access                             |
-| **spp-platform:jwt:access_token**       | change-me | System access token                                              |
-| **spp-platform:http:port**              | 12800     | Port to listen on for http connections                           |
-| **spp-platform:http:ssl_enabled**       | false     | Whether or not to use SSL on http(s) connections                 |
-| **spp-platform:http:redirect_to_https** | false     | Whether or not redirect http connections to https                |
-| **spp-platform:grpc:port**              | 11800     | Port to listen on for GRPC connections                           |
-| **spp-platform:grpc:ssl_enabled**       | false     | Whether or not to use SSL on GRPC connections                    |
-| **spp-platform:logging:level**          | info      | Platform logging level                                           |
-| **storage:selector**                    | memory    | Where live data is saved                                         |
-| **storage:redis:host**                  | localhost | Host to connect to Redis                                         |
-| **storage:redis:port**                  | 6379      | Port to connect to Redis                                         |
-| **skywalking-oap:host**                 | localhost | Host to connect to SkyWalking                                    |
-| **skywalking-oap:rest_port**            | 12801     | Port to connect to SkyWalking REST API                           |
-| **skywalking-oap:grpc_port**            | 11801     | Port to connect to SkyWalking GRPC                               |
+| Option                                       | Default   | Description                                       |
+|:---------------------------------------------|-----------|:--------------------------------------------------|
+| **spp-platform:host**                        | 0.0.0.0   | Platform host to listen on                        |
+| **spp-platform:jwt:enabled**                 | true      | Whether or not to enabled jwt access              |
+| **spp-platform:jwt:access_token**            | change-me | System access token                               |
+| **spp-platform:http:port**                   | 12800     | Port to listen on for http connections            |
+| **spp-platform:http:ssl_enabled**            | false     | Whether or not to use SSL on http(s) connections  |
+| **spp-platform:http:ssl_cert**               |           | SSL certificate file path                         |
+| **spp-platform:http:ssl_key**                |           | SSL key file path                                 |
+| **spp-platform:http:redirect_to_https**      | false     | Whether or not redirect http connections to https |
+| **spp-platform:logging:level**               | info      | Platform logging level                            |
+| **spp-platform:pii-redaction:enabled**       | true      | Whether or not to enable PII redaction            |
+| **spp-platform:client-access:enabled**       | false     | Whether or not to enable client access            |
+| **spp-platform:client-access:accessors**     |           | List of client accessors                          |
+| **storage:selector**                         | memory    | Where live data is saved                          |
+| **storage:redis:host**                       | localhost | Host to connect to Redis                          |
+| **storage:redis:port**                       | 6379      | Port to connect to Redis                          |
+| **storage:redis:cluster:enabled**            | false     | Whether or not to use clustering                  |
+| **skywalking-core:host**                     | localhost | Host to connect to SkyWalking                     |
+| **skywalking-core:rest_port**                | 12801     | Port to connect to SkyWalking REST API            |
+| **skywalking-core:grpc:port**                | 11800     | Port to connect to SkyWalking gRPC API            |
+| **skywalking-core:grpc:ssl_enabled**         | false     | Whether or not to use SSL on gRPC connections     |
+| **skywalking-core:grpc:ssl_key_path**        |           | SSL key file path                                 |
+| **skywalking-core:grpc:ssl_cert_chain_path** |           | SSL certificate file path                         |
+| **skywalking-core:grpc:ssl_trusted_ca_path** |           | SSL trusted CA file path                          |
