@@ -75,7 +75,6 @@ skywalking-core:
     ssl_key_path: ${SW_CORE_GRPC_SSL_KEY_PATH:-}
     ssl_cert_chain_path: ${SW_CORE_GRPC_SSL_CERT_CHAIN_PATH:-}
     ssl_trusted_ca_path: ${SW_CORE_GRPC_SSL_TRUSTED_CA_PATH:-}
-
 ```
 
 ## Configuration options
