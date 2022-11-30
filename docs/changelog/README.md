@@ -3,6 +3,7 @@
 ### [JVM Probe](https://github.com/sourceplusplus/probe-jvm)
 
 #### Added
+- Added `install_directory` for custom installation directory
 - Ability to set config via environment variables
 - Ability to add live instruments after return statements
 - Ability to add tags to live meters
