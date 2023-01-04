@@ -3,19 +3,11 @@
 ### [Live Platform](https://github.com/sourceplusplus/sourceplusplus)
 
 #### Added
-- ARM64 Docker image
 
 #### Changed
-- Upgraded SkyWalking OAP to 9.3.0
 
 ### [JetBrains Plugin](https://github.com/sourceplusplus/interface-jetbrains)
 
 #### Added
-- Runtime duration prediction indicator
-- Language-agnostic artifact model service
-- Ability to add multiple inlay marks to the same element
 
 #### Fixed
-- NPE when getting self info
-- NoSuchElementException when searching for PSI file
-- Non-dispatch thread access error on file marker dispose
