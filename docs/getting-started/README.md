@@ -6,7 +6,7 @@ There are three steps that are necessary to set up Source++:
 1. Attach the Source++ Agent
 1. Connect the Source++ Plugin
 
-The first step is to boot the Source++ Live Platform. This following instructions will walk you through the process of booting the platform. The recommended approach for booting the platform is via [Docker](#docker).
+The first step is to boot the Source++ Live Platform. The following instructions will walk you through the process of booting the platform. The recommended approach for booting the platform is via [Docker](#docker).
 
 ## Docker
 
