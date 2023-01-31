@@ -61,7 +61,7 @@
 - Co-developer instrument gutter marks
 - Use native condition field for breakpoint control bar
 - Only load project live plugins if project is trusted
-- show indicators on SpringMVC endpoints on annotation
+- Show indicators on SpringMVC endpoints on annotation
 
 #### Fixed
 - Live log variables not working in Kotlin
