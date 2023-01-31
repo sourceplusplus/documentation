@@ -65,7 +65,7 @@
 
 #### Fixed
 - Live log variables not working in Kotlin
-- Groovy compatability issues
+- Groovy compatibility issues
 - NPE when not logged in
 
 #### Removed
