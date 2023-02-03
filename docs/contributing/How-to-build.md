@@ -23,5 +23,5 @@
 
 1. Assemble the project.
     ```bash
-    ./gradlew -p platform assemble
+    ./gradlew :platform:assemble
     ```
