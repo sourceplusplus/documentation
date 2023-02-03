@@ -74,7 +74,7 @@ markdown_extensions:
   - footnotes
   - pymdownx.keys
 
-copyright: © 2022 | CodeBrig, Inc. | All Rights Reserved.
+copyright: © 2022-2023 | CodeBrig, Inc. | All Rights Reserved.
 
 repo_url: https://github.com/sourceplusplus/interface-jetbrains
 edit_uri: https://github.com/sourceplusplus/documentation/tree/master/docs/
