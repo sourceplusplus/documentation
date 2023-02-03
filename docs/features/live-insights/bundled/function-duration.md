@@ -18,6 +18,6 @@ of the durations of the various operations within the function that have been re
 - `Math.random()` - control flow probability ([source](https://github.com/sourceplusplus/interface-jetbrains/blob/master/insight/src/main/kotlin/spp/jetbrains/insight/pass/artifact/RandomConditionalPass.kt))
 - `Thread.sleep()` - function duration ([source](https://github.com/sourceplusplus/interface-jetbrains/blob/master/insight/src/main/kotlin/spp/jetbrains/insight/pass/artifact/ThreadSleepPass.kt))
 
-## Screencast
+## Demonstration
 
 ![](../../../assets/screencasts/live-insight.gif)
