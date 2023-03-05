@@ -60,5 +60,7 @@ jobs:
 
       - name: Deploy to production
         run: |
+          kubectl config get-contexts
+          kubectl config current-context
           kubectl apply -f ../prod/deployment.yaml
           kubectl rollout restart deployment spp-docs
