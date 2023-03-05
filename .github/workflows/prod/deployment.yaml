@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: "ghcr.io/sourceplusplus/documentation@master"
+          image: "ghcr.io/sourceplusplus/documentation:latest"
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
 ---
