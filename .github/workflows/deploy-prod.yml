@@ -54,7 +54,7 @@ jobs:
 
       - name: Install kube config
         run: |
-          mkdir ~/.kube
+          mkdir -p ~/.kube/config
           echo "${{ secrets.KUBE_CONFIG }}" > ~/.kube/config/kube-config.yml
 
       - name: Deploy to production
