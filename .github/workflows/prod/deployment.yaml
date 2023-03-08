@@ -30,7 +30,7 @@ metadata:
 spec:
   selector:
     app: spp-docs
-  type: NodePort
+  type: ClusterIP
   ports:
     - protocol: TCP
       port: 80
