@@ -15,7 +15,7 @@ spec:
         app: spp-docs
     spec:
       containers:
-        - name: nginx
+        - name: spp-docs
           image: "ghcr.io/sourceplusplus/documentation:latest"
           imagePullPolicy: Always
           ports:
