@@ -14,7 +14,7 @@ Commands:
   add-developer
   get-developers
   remove-developer
-  refresh-developer-token
+  refresh-authorization-code
 
   add-role
   remove-role
@@ -128,16 +128,16 @@ remove-developer <id>
 
 ---
 
-### refresh-developer-token
+### refresh-authorization-code
 
 #### Description
 
-Refresh a developer's access token.
+Refresh a developer's authorization code.
 
 #### Synopsis
 
 ```
-refresh-developer-token <id>
+refresh-authorization-code <id>
 ```
 
 #### Arguments
@@ -151,7 +151,7 @@ refresh-developer-token <id>
 ??? example "Basic"
     **Input**:
     ```
-    refresh-developer-token bob@email.com
+    refresh-authorization-code bob@email.com
     ```
 
     **Output**:

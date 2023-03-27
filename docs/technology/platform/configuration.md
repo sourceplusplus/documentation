@@ -7,7 +7,7 @@ spp-platform:
   host: ${SPP_PLATFORM_HOST:-0.0.0.0}
   jwt:
     enabled: ${SPP_JWT_ENABLED:-false}
-    access_token: ${SPP_JWT_ACCESS_TOKEN:-change-me}
+    authorization_code: ${SPP_JWT_AUTHORIZATION_CODE:-change-me}
   http:
     port: ${SPP_HTTP_PORT:-12800}
     ssl_enabled: ${SPP_HTTP_SSL_ENABLED:-false}
@@ -83,7 +83,7 @@ skywalking-core:
 |:---------------------------------------------|-----------|:--------------------------------------------------|
 | **spp-platform:host**                        | 0.0.0.0   | Platform host to listen on                        |
 | **spp-platform:jwt:enabled**                 | true      | Whether or not to enabled jwt access              |
-| **spp-platform:jwt:access_token**            | change-me | System access token                               |
+| **spp-platform:jwt:authorization_code**      | change-me | System authorization code                         |
 | **spp-platform:http:port**                   | 12800     | Port to listen on for http connections            |
 | **spp-platform:http:ssl_enabled**            | false     | Whether or not to use SSL on http(s) connections  |
 | **spp-platform:http:ssl_cert**               |           | SSL certificate file path                         |

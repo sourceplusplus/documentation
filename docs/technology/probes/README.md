@@ -10,11 +10,11 @@ For additional configuration see [Probe Configuration](configuration.md).
 ## Download
 
 ```shell
-curl -O -J "https://<spp-platform-host>:spp-platform-port>/download/spp-probe?access_token=<access-token>"
+curl -O -J "https://<spp-platform-host>:spp-platform-port>/download/spp-probe?authorization_code=<authorization-code>"
 ```
 
 !!! note
-    You must replace `<spp-platform-host>`, `<spp-platform-port>`, and `<access-token>` with valid values.
+    You must replace `<spp-platform-host>`, `<spp-platform-port>`, and `<authorization-code>` with valid values.
 
 ## Usage
 

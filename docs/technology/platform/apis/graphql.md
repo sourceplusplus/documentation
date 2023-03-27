@@ -346,7 +346,7 @@
 <td></td>
 </tr>
 <tr>
-<td colspan="2" valign="top"><strong>refreshDeveloperToken</strong></td>
+<td colspan="2" valign="top"><strong>refreshAuthorizationCode</strong></td>
 <td valign="top"><a href="#developer">Developer</a>!</td>
 <td></td>
 </tr>
