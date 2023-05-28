@@ -1,4 +1,4 @@
-FROM nginx:1.24
+FROM nginx:1.25
 
 # Setup mkdocs
 RUN apt-get update
@@ -20,5 +20,5 @@ RUN cd /src && mkdocs build
 # Serve documentation
 RUN mv /src/site/* /usr/share/nginx/html
 
-# Expose port 80
+# Expose documentation
 EXPOSE 80
