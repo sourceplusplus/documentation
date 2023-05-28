@@ -20,5 +20,5 @@ RUN cd /src && mkdocs build
 # Serve documentation
 RUN mv /src/site/* /usr/share/nginx/html
 
-# Expose port 80
+# Expose documentation
 EXPOSE 80
