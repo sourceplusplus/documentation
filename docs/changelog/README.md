@@ -56,7 +56,7 @@
 ### [JetBrains Plugin](https://github.com/sourceplusplus/interface-jetbrains)
 
 #### Added
-- `StickyNotificationPanel`
+- Sticky notification panel for persistent notifications
 - Function literal argument propagation
 - Vert.x endpoint detector
 
