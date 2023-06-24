@@ -1,1 +1,81 @@
 # Unreleased
+
+### [JVM Probe](https://github.com/sourceplusplus/probe-jvm)
+
+#### Added
+- Shutdown service to ensure all collected metrics are sent before JVM shutdown
+- Default uncaught exception handler
+- Ability to partition live meters
+- `spp.wait_for_platform` configuration to wait for platform to be available before starting
+- `spp.enabled` to globally enable/disable probe
+- `spp.probe_id` to specify static probe id
+- `SPP_PROBE_CONFIG_FILE` for specifying probe config file location
+
+#### Changed
+- Upgraded SkyWalking agent to 8.16.0
+- Improved serialization of java.time types
+- Ignore serializing types from internal packages of SkyWalking and other libraries
+- SimpleEvaluationContext.forReadOnlyDataBinding
+- QueuedLiveInstrumentApplier
+
+### [Live Platform](https://github.com/sourceplusplus/sourceplusplus)
+
+#### Added
+- Live instrument events
+- Bridge TCP ping timeout
+- Ability to partition live meters
+- System config
+    - `log_publish_rate_limit`
+    - `log_publish_cache_ttl`
+- Live presets
+    - JUnit test health
+    - Uncaught exceptions
+    - SkyWalking meter sender
+- `storage.redis.options` config
+
+#### Changed
+- Upgraded SkyWalking OAP to 9.5.0
+- Build with JDK 17
+- Live Meter id restrictions
+- `/api/new-token?access_token` -> `/api/new-token?authorization_code`
+
+#### Fixed
+- Concurrency issues with Redis storage
+
+### [Live Protocol](https://github.com/sourceplusplus/protocol)
+
+#### Added
+- Live meter hit instrument event
+- Platform config
+- TCP ping/pong
+- ViewRule
+
+#### Changed
+- Enforced live meter id
+
+### [JetBrains Plugin](https://github.com/sourceplusplus/interface-jetbrains)
+
+#### Added
+- `StickyNotificationPanel`
+- Function literal argument propagation
+- Vert.x endpoint detector
+
+#### Changed
+- Minimum supported IntelliJ 2023.1
+- Always report stack trace even on dupe errors
+- Removed pause on hide for live view tool windows
+
+#### Fixed
+- Various PsiInvalidElementAccessException issues
+- Displaying live charts over 4 hours fails
+
+#### Removed
+- Monitor module
+
+### [Live CLI](https://github.com/sourceplusplus/interface-cli)
+
+#### Added
+- `get-access-token` command
+
+#### Changed
+- `-id, -i` option for `add-instrument` commands
