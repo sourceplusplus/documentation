@@ -5,6 +5,7 @@ RUN apt-get update
 RUN apt-get install -y git
 RUN apt-get install -y mkdocs
 RUN apt-get install -y python3-pip
+RUN rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 RUN pip3 install mkdocs-material
 RUN pip3 install mkdocs-awesome-pages-plugin
 RUN pip3 install fancyboxmd
