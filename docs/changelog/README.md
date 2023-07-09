@@ -18,10 +18,6 @@
 
 #### Changed
 - Moved endpoint `/graphql/spp` to `/graphql`
-- Improved light/dark tool window icons
-
-#### Fixed
-- Memory leak in live view chart window
 
 #### Removed
 - `/graphql/skywalking` endpoint
@@ -53,7 +49,11 @@
 
 ### [JetBrains Plugin](https://github.com/sourceplusplus/interface-jetbrains)
 
+#### Changed
+- Improved light/dark tool window icons
+
 #### Fixed
+- Memory leak in live view chart window
 - Timed out after waiting 30000(ms) for a reply
 - NPE in JVMMarkerUtils.getQualifiedName
 - ISE in JVMLoggerDetector.handleKotlinCall
