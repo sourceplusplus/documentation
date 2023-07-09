@@ -28,8 +28,6 @@
 - `spp-platform-request` header
 - `kickUnknownPingConnections` functionality
 
-#### Fixed
-
 ### [Live Protocol](https://github.com/sourceplusplus/protocol)
 
 #### Added
