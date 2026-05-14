@@ -1,4 +1,4 @@
-FROM nginx:1.25
+FROM nginx:1.31
 
 # Setup mkdocs
 RUN apt-get update
